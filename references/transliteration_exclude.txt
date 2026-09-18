@@ -1,0 +1,14 @@
+# 中文音译专名排除清单（核心词汇 + 重点词组都不收）
+# 红线：音译专名非可学词汇，且加注需编造音标 → 一律不进核心词汇，也不强行进重点词组。
+# 形式：城市对 / 单地名音译 / 音译自中文地名的 hyphen 复合词。
+# apply_vocab_rules.py 会标出命中此清单的核心词汇行，提示人工移除。
+Qinhuangdao-Shenyang
+Shenyang-Dalian
+Harbin-Dalian
+Qinhuangdao
+Shenyang
+Dalian
+Chahai
+Jinniushan
+# 规则补充：任何「全小写、纯字母连字符、且明显音译自中文专名」的 token 都应排除。
+# 后续可在此追加新出现的音译地名。

@@ -1,0 +1,47 @@
+# 核心词汇·必剔基础词清单（纯基础、人人都认识、不体现原文专业信息）
+# 一行一词或一行多词，统一小写；"#" 开头为注释；多词短语会拆成各单词入表。
+#
+# 【追加通道】本文件是「参考副本」。日常追加请写：
+#   C:\Users\Administrator\WorkBuddy\automation-2026-06-24-task-1\每日一练素材\stop_words_user.txt
+# 该文件与本文件都会被 vocab_phrase_rules.py 自动加载，两处任一处增补均生效。
+# 也可用一行命令追加： python add_stop.py "castle, tower"
+#
+# ── 自然地理泛词（持续扩充组）─────────────────────────────
+# 水体
+river, stream, creek, brook, lake, pond, pool, sea, ocean, bay, gulf
+wave, tide, waterfall, spring, well, canal
+# 地貌 / 地表
+mountain, hill, valley, plain, slope, peak, cliff, rock, stone, sand, soil
+mud, land, earth, ground, field, desert, grassland, forest, wood, woods
+jungle, bush, tree, branch, leaf, root, seed, flower, grass, plant, crop
+island, beach, coast, shore, ice, cave
+# 天空 / 天象 / 自然
+sky, sun, moon, star, cloud, fog, mist, wind, rain, snow, air, light, dark
+nature, weather, season
+# ── 基础形容与方位 ────────────────────────────────────
+hot, cold, warm, cool, dry, wet, high, low, deep, wide, narrow, tall, short
+heavy, thin, clean, dirty, quiet, noisy, busy, empty, full, young, easy, hard
+fast, slow, safe, near, far, north, south, east, west, left, right, front
+back, middle, under, over, around
+# 颜色
+red, blue, green, yellow, white, black, brown
+# ── 季节 / 时间 ─────────────────────────────────────
+summer, autumn, fall, winter, morning, afternoon, evening, night, today
+tomorrow, yesterday, week, month, hour, minute, second
+# ── 常见动植物 ──────────────────────────────────────
+animal, bird, fish, dog, cat, cow, pig, horse, sheep, duck, chicken, insect
+bee, butterfly, tiger, lion, monkey, snake, deer, bear, wolf, fox, rabbit
+elephant
+# ── 人文聚落 / 通用名词 ────────────────────────────────
+city, cities, town, village, province, country, world, place, area, region
+street, road, bridge, house, home, building, hotel, park, garden, hall, room
+door, wall, center, centre, school, market, shop, station, bus, car, train
+ship, boat, ticket, square, located, situated
+# ── 高频抽象 / 功能泛词 ────────────────────────────────
+time, year, day, people, name, number, part, side, top, end, start, group
+kind, type, way, thing, history, national, local, famous, beautiful, big
+small, long, old, new, good, great, large, many, much, more, most, very
+also, only, first, last, important, main
+# ── 常见动词泛词 ─────────────────────────────────────
+be, is, are, was, were, have, has, had, do, does, make, take, get, go, come
+see, know, use, find, build, live, call, become, include, cover, boast
