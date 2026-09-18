@@ -52,6 +52,12 @@ agent_created: true
 
 **运行时唯一事实源**：`…\每日一练素材\vocab_phrase_rules.py`（本 skill 与它保持一致；改规则改代码那处）。
 
+**下游同步契约（2026-09-18 教训，务必知悉）**：改完规则**只改本地代码是不够的** ——
+- 源 md 由 `每日一练素材\gen_translation.py` 产出，运行即幂等重生成 60 篇**并自动同步到 `D:\WorkBuddy\每日英语\`**（旧版留档 `_srcmd_prev\`）。参数：`--no-sync` / `--only YYYY-MM-DD`。
+- 公众号发布包自动化（每天 3:00）读的是 **D 盘**那份源 md，不是本地。**只改本地不同步 = 发布包看不到**。
+- 发布端版式继承见 skill `daily-english-wechat-article` 骨架 A 第 5.5 节（易错词子表）。
+- 规范文件：`D:\WorkBuddy\每日英语\_源md生成规范_必读.md`（禁手工改写词汇三段）。
+
 > **前提**：仅在「该词确实出现在本篇英文原文」时加入，**不编造**。缺失词查 Cambridge UK 音标（去点，与表内风格统一），中文取权威译法。
 
 ## 1.2.1 个人错词强制通道（2026-09-18 金玉拍板，优先于四关）
@@ -73,7 +79,8 @@ agent_created: true
   `-es` 仅在词尾为 `s/x/z/ch/sh` 时回退两字母（否则 wages→wag 会假阳性）。
 - 「原文形式」列记录实际出现形（hailed / species / cherishing），便于在原文里定位。
 
-**工具**：`wrong_words.json`（结构化通道）+ `build_wrong_words.py`（幂等重建）+ `find_wrong_word_hits()` /
+**工具（本 skill 内）**：`references/wrong_words.json`（错词表同步副本，392 词，含 音标/词性/释义/错次）+ `scripts/sync_wrong_words.py`（从自动化数据源 `C:\Users\Administrator\WorkBuddy\2026-06-30-22-34-53` 幂等同步，可复跑）。
+**工具（每日一练素材流水线）**：`wrong_words.json`（结构化通道）+ `build_wrong_words.py`（幂等重建）+ `find_wrong_word_hits()` /
 `split_core_vocab()`（`vocab_phrase_rules.py`）+ `wrong_words_report.py`（命中清单与自检）。
 
 ## 1.3 必须剔除（基础词停表，四关中的 G1）
@@ -155,7 +162,8 @@ agent_created: true
 - 标出命中 `transliteration_exclude.txt` 的音译专名（提示人工移除）；
 - 校验标题计数 `（N）` == 表内行数；
 - 从原文/参考译文抽取「学术词 + >15 字母词」候选，列出缺失项供补词；
-- 默认**只报告**；`--apply` 才重写 .md 表（自动备份 .bak），HTML 另行人工处理。
+- 从 `references/wrong_words.json` 加载本人 CET-6 错词表，报告模式标出 `error_word_hits`（原文命中但不在主表的词）；`--apply-error` 在核心词汇板块内追加「个人错词」子表（§1.2.1），命中词从主表剔除并重算计数；
+- 默认**只报告**；`--apply` / `--apply-error` 才重写 .md 表（自动备份 .bak），HTML 另行人工处理。
 
 ```bash
 # 报告模式（安全，不改文件）
@@ -164,12 +172,22 @@ python scripts/apply_vocab_rules.py "D:\WorkBuddy\每日英语\发布包\2026-09
 python scripts/apply_vocab_rules.py "D:\WorkBuddy\每日英语\发布包"
 # 真正改写（先自动 .bak）
 python scripts/apply_vocab_rules.py "D:\WorkBuddy\每日英语\发布包" --apply
+# 追加「个人错词」子表（错词表命中强制纳入）
+python scripts/apply_vocab_rules.py "D:\WorkBuddy\每日英语\发布包" --apply-error
+```
+
+`scripts/sync_wrong_words.py` —— 将本人 CET-6 错词表从自动化数据源同步进 `references/wrong_words.json`（幂等，可复跑）：
+```bash
+python scripts/sync_wrong_words.py                 # 默认源：C:\Users\Administrator\WorkBuddy\2026-06-30-22-34-53
+python scripts/sync_wrong_words.py --source <其他数据源根目录>
 ```
 
 # 六、参考文件
-- `references/add_words.json`：学术/长词扩展包（28 词，含 Cambridge UK IPA + 中文），持续扩充。
+- `references/add_words.json`：学术/长词扩展包（32 词，含 Cambridge UK IPA + 中文），持续扩充。
 - `references/exclude_basic.txt`：核心词汇必剔基础功能词清单。
 - `references/transliteration_exclude.txt`：中文音译专名排除清单/规则。
+- `references/wrong_words.json`：本人 CET-6 错词表同步副本（392 词，含 音标/词性/释义/错次），由 `scripts/sync_wrong_words.py` 从 `2026-06-30-22-34-53` 数据源同步。
+- `scripts/sync_wrong_words.py`：错词表同步脚本（幂等，`--source` 可指定其它数据源）。
 
 # 七、TODO（待完善，逐步迭代）
 - [x] 自动识别「长专名/机构名录类」抽取：已实现 `vocab_phrase_rules.extract_phrase_candidates()`（2026-09-18），全窗口命中 322 条候选，人工核定后入表。

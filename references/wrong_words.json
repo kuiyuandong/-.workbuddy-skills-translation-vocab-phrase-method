@@ -1,0 +1,3138 @@
+{
+  "adjacent": {
+    "meaning": "毗连的；紧接着的",
+    "uk_ipa": "/ə'dʒeɪsnt/",
+    "us_ipa": "/ə'dʒesnt/",
+    "pos": "adj",
+    "error_count": 2,
+    "mastered": false
+  },
+  "adolescent": {
+    "meaning": "青春期的； 青少年的；青少年",
+    "uk_ipa": "/ˌædə'lesnt/",
+    "us_ipa": "/,ædə'lɛsnt/",
+    "pos": "adj/n",
+    "error_count": 2,
+    "mastered": false
+  },
+  "adverse": {
+    "meaning": "相反的，敌对的",
+    "uk_ipa": "/'ædvɜːs/",
+    "us_ipa": "/ædˈvɚs, ˈædˌvɚs/",
+    "pos": "adj",
+    "error_count": 1,
+    "mastered": false
+  },
+  "advocate": {
+    "meaning": "拥护；辩护律师",
+    "uk_ipa": "/'ædvəkeɪt；-ət/",
+    "us_ipa": "/ˈædvəkeɪt；-et/",
+    "pos": "v/n",
+    "error_count": 2,
+    "mastered": false
+  },
+  "affiliate": {
+    "meaning": "使隶属于",
+    "uk_ipa": "/ə'fɪlɪeɪt/",
+    "us_ipa": "/ə'fɪlɪet/",
+    "pos": "v",
+    "error_count": 3,
+    "mastered": false
+  },
+  "aggravate": {
+    "meaning": "加重，加剧",
+    "uk_ipa": "/'ægrəveɪt/",
+    "us_ipa": "/'æɡrəvet/",
+    "pos": "v",
+    "error_count": 1,
+    "mastered": false
+  },
+  "aggregate": {
+    "meaning": "总计的， 合计的；总数，合计；总计达， 合计； 使聚集， 使积聚",
+    "uk_ipa": "/'ægrɪgət; (for v.) ˈægrɪgeɪt/",
+    "us_ipa": "/'æɡrɪɡət; (for v.) æɡrɪˌɡet/",
+    "pos": "adj/n/vt",
+    "error_count": 2,
+    "mastered": false
+  },
+  "alienate": {
+    "meaning": "使疏远， 使不友好， 离间； 转让， 让渡",
+    "uk_ipa": "/'eɪlɪəneɪt/",
+    "us_ipa": "/'eiljəneit/",
+    "pos": "vt",
+    "error_count": 1,
+    "mastered": false
+  },
+  "alleviate": {
+    "meaning": "减轻，缓解",
+    "uk_ipa": "/ə'liːvieɪt/",
+    "us_ipa": "/ə'livɪ'et/",
+    "pos": "v",
+    "error_count": 3,
+    "mastered": false
+  },
+  "agonize": {
+    "meaning": "使痛苦",
+    "uk_ipa": "/'æɡənaɪz/",
+    "us_ipa": "/'æɡənaɪz/",
+    "pos": "v",
+    "error_count": 2,
+    "mastered": false
+  },
+  "accrue": {
+    "meaning": "积累",
+    "uk_ipa": "/ə'kru:/",
+    "us_ipa": "/ə'kru/",
+    "pos": "v",
+    "error_count": 2,
+    "mastered": false
+  },
+  "apathy": {
+    "meaning": "冷漠",
+    "uk_ipa": "/ˈæpəθi/",
+    "us_ipa": "/'æpəθi/",
+    "pos": "n",
+    "error_count": 1,
+    "mastered": false
+  },
+  "arrogant": {
+    "meaning": "傲慢无礼的",
+    "uk_ipa": "/'ærəgənt/",
+    "us_ipa": "/'ærəɡənt/",
+    "pos": "adj",
+    "error_count": 1,
+    "mastered": false
+  },
+  "bias": {
+    "meaning": "偏见",
+    "uk_ipa": "/'baɪəs/",
+    "us_ipa": "/'baɪəs/",
+    "pos": "n",
+    "error_count": 1,
+    "mastered": false
+  },
+  "bizarre": {
+    "meaning": "古怪的；奇怪的",
+    "uk_ipa": "/bɪ'zɑː(r)/",
+    "us_ipa": "/bɪ'zɑr/",
+    "pos": "adj",
+    "error_count": 1,
+    "mastered": false
+  },
+  "botanical": {
+    "meaning": "植物学的",
+    "uk_ipa": "/bəˈtænɪkl/",
+    "us_ipa": "/bə'tænɪkl/",
+    "pos": "adj",
+    "error_count": 1,
+    "mastered": false
+  },
+  "bruise": {
+    "meaning": "使碰伤，擦伤",
+    "uk_ipa": "/bruːz/",
+    "us_ipa": "/bruz/",
+    "pos": "v",
+    "error_count": 1,
+    "mastered": false
+  },
+  "burden": {
+    "meaning": "负担",
+    "uk_ipa": "/'bɜːdn/",
+    "us_ipa": "/'bɝdn/",
+    "pos": "n",
+    "error_count": 1,
+    "mastered": false
+  },
+  "bureaucracy": {
+    "meaning": "官僚主义",
+    "uk_ipa": "/bjuə'rɒkrəsi/",
+    "us_ipa": "/bjʊ'rɑkrəsi/",
+    "pos": "n",
+    "error_count": 1,
+    "mastered": false
+  },
+  "chaos": {
+    "meaning": "混乱",
+    "uk_ipa": "/'keɪɒs/",
+    "us_ipa": "/'keɑs/",
+    "pos": "n",
+    "error_count": 1,
+    "mastered": false
+  },
+  "chronicle": {
+    "meaning": "记录",
+    "uk_ipa": "/'krɒnɪkl/",
+    "us_ipa": "/'krɑnɪkl/",
+    "pos": "v",
+    "error_count": 1,
+    "mastered": false
+  },
+  "circulation": {
+    "meaning": "发行量",
+    "uk_ipa": "/ˌsɜːkjə'leɪʃn/",
+    "us_ipa": "/,sɝkjə'leʃən/",
+    "pos": "n",
+    "error_count": 1,
+    "mastered": false
+  },
+  "citation": {
+    "meaning": "引文",
+    "uk_ipa": "/saɪ'teɪʃn/",
+    "us_ipa": "/saɪ'teʃən/",
+    "pos": "n",
+    "error_count": 1,
+    "mastered": false
+  },
+  "clarify": {
+    "meaning": "澄清，明确",
+    "uk_ipa": "/'klærəfaɪ/",
+    "us_ipa": "/'klærəfaɪ/",
+    "pos": "v",
+    "error_count": 1,
+    "mastered": false
+  },
+  "collide": {
+    "meaning": "撞击，碰撞",
+    "uk_ipa": "/kə'laɪd/",
+    "us_ipa": "/kə'laɪd/",
+    "pos": "v",
+    "error_count": 1,
+    "mastered": false
+  },
+  "compel": {
+    "meaning": "强迫",
+    "uk_ipa": "/kəm'pel/",
+    "us_ipa": "/kəm'pɛl/",
+    "pos": "v",
+    "error_count": 1,
+    "mastered": false
+  },
+  "console": {
+    "meaning": "安慰",
+    "uk_ipa": "/kən'səul/",
+    "us_ipa": "/'kɑnsol/",
+    "pos": "v",
+    "error_count": 1,
+    "mastered": false
+  },
+  "contamination": {
+    "meaning": "污染",
+    "uk_ipa": "/kənˌtæmɪ'neɪʃən/",
+    "us_ipa": "/kən,tæmi'neiʃən/",
+    "pos": "n",
+    "error_count": 1,
+    "mastered": false
+  },
+  "counsel": {
+    "meaning": "建议，忠告",
+    "uk_ipa": "/'kaunsl/",
+    "us_ipa": "/'kaʊnsl/",
+    "pos": "v",
+    "error_count": 1,
+    "mastered": false
+  },
+  "criteria": {
+    "meaning": "标准",
+    "uk_ipa": "/kraɪ'tɪərɪə/",
+    "us_ipa": "/kraɪ'tɪrɪə/",
+    "pos": "n",
+    "error_count": 1,
+    "mastered": false
+  },
+  "critical": {
+    "meaning": "挑剔的，批评的；关键的",
+    "uk_ipa": "/'krɪtɪkl/",
+    "us_ipa": "/'krɪtɪkl/",
+    "pos": "adj",
+    "error_count": 1,
+    "mastered": false
+  },
+  "criticism": {
+    "meaning": "批评",
+    "uk_ipa": "/'krɪtɪsɪzəm/",
+    "us_ipa": "/'krɪtə'sɪzəm/",
+    "pos": "n",
+    "error_count": 1,
+    "mastered": false
+  },
+  "debris": {
+    "meaning": "残骸，碎片",
+    "uk_ipa": "/ˈdeɪˌbri:/",
+    "us_ipa": "/də'bri/",
+    "pos": "n",
+    "error_count": 1,
+    "mastered": false
+  },
+  "decisive": {
+    "meaning": "决定性的",
+    "uk_ipa": "/dɪ'saɪsɪv/",
+    "us_ipa": "/dɪ'saɪsɪv/",
+    "pos": "adj",
+    "error_count": 1,
+    "mastered": false
+  },
+  "deliberate": {
+    "meaning": "故意的",
+    "uk_ipa": "/dɪ'lɪb(ə)rət/",
+    "us_ipa": "/dɪ'lɪbərət/",
+    "pos": "adj",
+    "error_count": 1,
+    "mastered": false
+  },
+  "deprive": {
+    "meaning": "剥夺",
+    "uk_ipa": "/dɪ'praɪv/",
+    "us_ipa": "/dɪ'praɪv/",
+    "pos": "v",
+    "error_count": 1,
+    "mastered": false
+  },
+  "dispatch": {
+    "meaning": "发送，派遣",
+    "uk_ipa": "/dɪ'spætʃ/",
+    "us_ipa": "/dɪ'spætʃ/",
+    "pos": "v",
+    "error_count": 1,
+    "mastered": false
+  },
+  "dividend": {
+    "meaning": "分红，红利",
+    "uk_ipa": "/'dɪvɪdend/",
+    "us_ipa": "/'dɪvɪdɛnd/",
+    "pos": "n",
+    "error_count": 1,
+    "mastered": false
+  },
+  "drift": {
+    "meaning": "漂流",
+    "uk_ipa": "/drɪft/",
+    "us_ipa": "/drɪft/",
+    "pos": "v",
+    "error_count": 1,
+    "mastered": false
+  },
+  "dropout": {
+    "meaning": "辍学",
+    "uk_ipa": "/ˈdrɒpaʊt/",
+    "us_ipa": "/'drɑpaʊt/",
+    "pos": "n",
+    "error_count": 1,
+    "mastered": false
+  },
+  "dweller": {
+    "meaning": "居住者",
+    "uk_ipa": "/ˈdwelə(r)/",
+    "us_ipa": "/'dwɛlɚ/",
+    "pos": "n",
+    "error_count": 1,
+    "mastered": false
+  },
+  "eccentric": {
+    "meaning": "古怪的",
+    "uk_ipa": "/ɪk'sentrɪk/",
+    "us_ipa": "/ɪk'sɛntrɪk/",
+    "pos": "adj",
+    "error_count": 1,
+    "mastered": false
+  },
+  "ecological": {
+    "meaning": "生态学的",
+    "uk_ipa": "/ˌi:kəˈlɒdʒɪkl/",
+    "us_ipa": "/'ikə'lɑdʒɪkl/",
+    "pos": "adj",
+    "error_count": 1,
+    "mastered": false
+  },
+  "eloquent": {
+    "meaning": "口才好的，雄辩的",
+    "uk_ipa": "/'eləkwənt/",
+    "us_ipa": "/'ɛləkwənt/",
+    "pos": "adj",
+    "error_count": 1,
+    "mastered": false
+  },
+  "epidemic": {
+    "meaning": "流行病",
+    "uk_ipa": "/ˌepɪ'demɪk/",
+    "us_ipa": "/,ɛpɪ'dɛmɪk/",
+    "pos": "n",
+    "error_count": 1,
+    "mastered": false
+  },
+  "eradicate": {
+    "meaning": "根除",
+    "uk_ipa": "/ɪ'rædɪkeɪt/",
+    "us_ipa": "/ɪ'rædɪket/",
+    "pos": "v",
+    "error_count": 1,
+    "mastered": false
+  },
+  "erroneous": {
+    "meaning": "错误的",
+    "uk_ipa": "/ɪ'rəuniəs/",
+    "us_ipa": "/ɪ'ronɪəs/",
+    "pos": "adj",
+    "error_count": 1,
+    "mastered": false
+  },
+  "ethnic": {
+    "meaning": "种族的",
+    "uk_ipa": "/'eθnɪk/",
+    "us_ipa": "/'ɛθnɪk/",
+    "pos": "adj",
+    "error_count": 1,
+    "mastered": false
+  },
+  "excess": {
+    "meaning": "过量，过度",
+    "uk_ipa": "/ɪk'ses/",
+    "us_ipa": "/'ɛk'sɛs/",
+    "pos": "n",
+    "error_count": 1,
+    "mastered": false
+  },
+  "excessive": {
+    "meaning": "过度的",
+    "uk_ipa": "/ɪk'sesɪv/",
+    "us_ipa": "/ɪkˈsɛsɪv/",
+    "pos": "adj",
+    "error_count": 1,
+    "mastered": false
+  },
+  "executive": {
+    "meaning": "执行官",
+    "uk_ipa": "/ɪg'zekjətɪv/",
+    "us_ipa": "/ɪɡ'zɛkjətɪv/",
+    "pos": "n",
+    "error_count": 1,
+    "mastered": false
+  },
+  "exert": {
+    "meaning": "施加",
+    "uk_ipa": "/ɪg'zɜːt/",
+    "us_ipa": "/ɪɡ'zɝt/",
+    "pos": "v",
+    "error_count": 1,
+    "mastered": false
+  },
+  "exotic": {
+    "meaning": "异域的，外国的",
+    "uk_ipa": "/ɪg'zɒtɪk/",
+    "us_ipa": "/ɪɡ'zɑtɪk/",
+    "pos": "adj",
+    "error_count": 1,
+    "mastered": false
+  },
+  "expenditure": {
+    "meaning": "费用，花销",
+    "uk_ipa": "/ɪk'spendɪtʃə/",
+    "us_ipa": "/ɪk'spɛndɪtʃɚ/",
+    "pos": "n",
+    "error_count": 1,
+    "mastered": false
+  },
+  "expertise": {
+    "meaning": "专业知识",
+    "uk_ipa": "/ˌekspɜː'tiːz/",
+    "us_ipa": "/'ɛkspɝ'tiz/",
+    "pos": "n",
+    "error_count": 1,
+    "mastered": false
+  },
+  "faculty": {
+    "meaning": "教工，教员",
+    "uk_ipa": "/'fæklti/",
+    "us_ipa": "/'fæklti/",
+    "pos": "n",
+    "error_count": 1,
+    "mastered": false
+  },
+  "fatigue": {
+    "meaning": "疲惫",
+    "uk_ipa": "/fə'tiːg/",
+    "us_ipa": "/fə'tig/",
+    "pos": "n",
+    "error_count": 1,
+    "mastered": false
+  },
+  "flaw": {
+    "meaning": "缺点，瑕疵",
+    "uk_ipa": "/flɔː/",
+    "us_ipa": "/flɔ/",
+    "pos": "n",
+    "error_count": 1,
+    "mastered": false
+  },
+  "flee": {
+    "meaning": "离开",
+    "uk_ipa": "/fliː/",
+    "us_ipa": "/fli/",
+    "pos": "v",
+    "error_count": 1,
+    "mastered": false
+  },
+  "flexible": {
+    "meaning": "灵活的",
+    "uk_ipa": "/'fleksəbl/",
+    "us_ipa": "/'flɛksəbl/",
+    "pos": "adj",
+    "error_count": 1,
+    "mastered": false
+  },
+  "formidable": {
+    "meaning": "可怕的；令人敬畏的，令人惊叹的",
+    "uk_ipa": "/'fɔːmɪdəbl/",
+    "us_ipa": "/'fɔrmɪdəbl/",
+    "pos": "adj",
+    "error_count": 1,
+    "mastered": false
+  },
+  "frantic": {
+    "meaning": "疯狂的",
+    "uk_ipa": "/'fræntɪk/",
+    "us_ipa": "/'fræntɪk/",
+    "pos": "adj",
+    "error_count": 1,
+    "mastered": false
+  },
+  "furious": {
+    "meaning": "生气的；激烈的",
+    "uk_ipa": "/'fjuəriəs/",
+    "us_ipa": "/'fjʊrɪəs/",
+    "pos": "adj",
+    "error_count": 1,
+    "mastered": false
+  },
+  "fuss": {
+    "meaning": "小题大做",
+    "uk_ipa": "/fʌs/",
+    "us_ipa": "/fʌs/",
+    "pos": "n",
+    "error_count": 1,
+    "mastered": false
+  },
+  "genetic": {
+    "meaning": "基因的",
+    "uk_ipa": "/dʒə'netɪk/",
+    "us_ipa": "/dʒə'nɛtɪk/",
+    "pos": "adj",
+    "error_count": 1,
+    "mastered": false
+  },
+  "geology": {
+    "meaning": "地质学",
+    "uk_ipa": "/dʒi'ɒlədʒi/",
+    "us_ipa": "/dʒɪ'ɑlədʒi/",
+    "pos": "n",
+    "error_count": 1,
+    "mastered": false
+  },
+  "glamorous": {
+    "meaning": "有魅力的，迷人的",
+    "uk_ipa": "/ˈglæmərəs/",
+    "us_ipa": "/'glæmərəs/",
+    "pos": "adj",
+    "error_count": 1,
+    "mastered": false
+  },
+  "guesstimate": {
+    "meaning": "大概估计，瞎猜估计",
+    "uk_ipa": "/ˈgestɪmət/",
+    "us_ipa": "/'ɡɛstɪmet/",
+    "pos": "n",
+    "error_count": 1,
+    "mastered": false
+  },
+  "hinder": {
+    "meaning": "阻碍",
+    "uk_ipa": "/'hɪndə/",
+    "us_ipa": "/'hɪndɚ/",
+    "pos": "v",
+    "error_count": 1,
+    "mastered": false
+  },
+  "hypothesis": {
+    "meaning": "假设，假说",
+    "uk_ipa": "/haɪ'pɒθəsɪs/",
+    "us_ipa": "/haɪ'pɑθəsɪs/",
+    "pos": "n",
+    "error_count": 1,
+    "mastered": false
+  },
+  "ideologically": {
+    "meaning": "意识形态上地",
+    "uk_ipa": "/ˌaɪdɪə'lɒdʒɪklɪ/",
+    "us_ipa": "/,aidiə'lɔdʒikali/",
+    "pos": "adv",
+    "error_count": 1,
+    "mastered": false
+  },
+  "ideology": {
+    "meaning": "意识形态",
+    "uk_ipa": "/ˌaɪdi'ɒlədʒi/",
+    "us_ipa": "/,aidi'ɔlədʒi, ,idi-/",
+    "pos": "n",
+    "error_count": 1,
+    "mastered": false
+  },
+  "imminent": {
+    "meaning": "即将来临的",
+    "uk_ipa": "/'ɪmɪnənt/",
+    "us_ipa": "/'ɪmɪnənt/",
+    "pos": "adj",
+    "error_count": 1,
+    "mastered": false
+  },
+  "inadequate": {
+    "meaning": "不足的",
+    "uk_ipa": "/ɪn'ædɪkwət/",
+    "us_ipa": "/ɪn'ædɪkwət/",
+    "pos": "adj",
+    "error_count": 1,
+    "mastered": false
+  },
+  "incentive": {
+    "meaning": "刺激",
+    "uk_ipa": "/ɪn'sentɪv/",
+    "us_ipa": "/ɪn'sɛntɪv/",
+    "pos": "n",
+    "error_count": 1,
+    "mastered": false
+  },
+  "indifferent": {
+    "meaning": "冷漠的",
+    "uk_ipa": "/ɪn'dɪfrənt/",
+    "us_ipa": "/ɪn'dɪfrənt/",
+    "pos": "adj",
+    "error_count": 1,
+    "mastered": false
+  },
+  "indiscriminately": {
+    "meaning": "不加选择地，不加区分地",
+    "uk_ipa": "/ˌɪndɪ'skrɪmɪnətlɪ/",
+    "us_ipa": "/indi'skriminitli/",
+    "pos": "adv",
+    "error_count": 1,
+    "mastered": false
+  },
+  "indispensable": {
+    "meaning": "必不可少的",
+    "uk_ipa": "/ˌɪndɪ'spensəbl/",
+    "us_ipa": "/'ɪndɪ'spɛnsəbl/",
+    "pos": "adj",
+    "error_count": 1,
+    "mastered": false
+  },
+  "indulge": {
+    "meaning": "放纵",
+    "uk_ipa": "/ɪn'dʌldʒ/",
+    "us_ipa": "/ɪn'dʌldʒ/",
+    "pos": "v",
+    "error_count": 1,
+    "mastered": false
+  },
+  "industrious": {
+    "meaning": "勤奋的",
+    "uk_ipa": "/ɪn'dʌstrɪəs/",
+    "us_ipa": "/ɪn'dʌstrɪəs/",
+    "pos": "adj",
+    "error_count": 1,
+    "mastered": false
+  },
+  "infant": {
+    "meaning": "婴儿",
+    "uk_ipa": "/'ɪnfənt/",
+    "us_ipa": "/'ɪnfənt/",
+    "pos": "n",
+    "error_count": 1,
+    "mastered": false
+  },
+  "inhale": {
+    "meaning": "吸入",
+    "uk_ipa": "/ɪn'heɪl/",
+    "us_ipa": "/ɪn'hel/",
+    "pos": "v",
+    "error_count": 1,
+    "mastered": false
+  },
+  "integrity": {
+    "meaning": "正直",
+    "uk_ipa": "/ɪn'tegrəti/",
+    "us_ipa": "/ɪn'tɛɡrəti/",
+    "pos": "n",
+    "error_count": 1,
+    "mastered": false
+  },
+  "interference": {
+    "meaning": "干涉",
+    "uk_ipa": "/ˌɪntəˈfɪərəns/",
+    "us_ipa": "/,ɪntɚ'fɪrəns/",
+    "pos": "n",
+    "error_count": 1,
+    "mastered": false
+  },
+  "intervene": {
+    "meaning": "干涉",
+    "uk_ipa": "/ˌɪntə'viːn/",
+    "us_ipa": "/,ɪntɚ'vin/",
+    "pos": "v",
+    "error_count": 1,
+    "mastered": false
+  },
+  "intervention": {
+    "meaning": "干涉",
+    "uk_ipa": "/ˌɪntə'venʃn/",
+    "us_ipa": "/,ɪntɚ'vɛnʃən/",
+    "pos": "n",
+    "error_count": 1,
+    "mastered": false
+  },
+  "intriguing": {
+    "meaning": "有趣的",
+    "uk_ipa": "/ɪnˈtri:gɪŋ/",
+    "us_ipa": "/ɪn'triɡɪŋ/",
+    "pos": "adj",
+    "error_count": 1,
+    "mastered": false
+  },
+  "irony": {
+    "meaning": "讽刺",
+    "uk_ipa": "/'aɪərəni/",
+    "us_ipa": "/'aɪrəni/",
+    "pos": "n",
+    "error_count": 1,
+    "mastered": false
+  },
+  "irritate": {
+    "meaning": "激怒",
+    "uk_ipa": "/'ɪrɪteɪt/",
+    "us_ipa": "/'ɪrɪtet/",
+    "pos": "v",
+    "error_count": 1,
+    "mastered": false
+  },
+  "judicial": {
+    "meaning": "司法的",
+    "uk_ipa": "/dʒuˈdɪʃl/",
+    "us_ipa": "/dʒʊ'dɪʃəl/",
+    "pos": "adj",
+    "error_count": 1,
+    "mastered": false
+  },
+  "justifiable": {
+    "meaning": "理所应当的",
+    "uk_ipa": "/ˈdʒʌstɪfaɪəbl/",
+    "us_ipa": "/'dʒʌstɪfaɪəbl/",
+    "pos": "adj",
+    "error_count": 1,
+    "mastered": false
+  },
+  "justified": {
+    "meaning": "正当的",
+    "uk_ipa": "/'dʒʌstɪfaɪd/",
+    "us_ipa": "/'dʒʌstɪfaɪd/",
+    "pos": "adj",
+    "error_count": 1,
+    "mastered": false
+  },
+  "lag": {
+    "meaning": "落后",
+    "uk_ipa": "/læɡ/",
+    "us_ipa": "/læɡ/",
+    "pos": "v",
+    "error_count": 1,
+    "mastered": false
+  },
+  "lawn": {
+    "meaning": "草坪",
+    "uk_ipa": "/lɔ:n/",
+    "us_ipa": "/lɔn/",
+    "pos": "n",
+    "error_count": 1,
+    "mastered": false
+  },
+  "layman": {
+    "meaning": "门外汉",
+    "uk_ipa": "/'leɪmən/",
+    "us_ipa": "/'lemən/",
+    "pos": "n",
+    "error_count": 1,
+    "mastered": false
+  },
+  "lest": {
+    "meaning": "以免",
+    "uk_ipa": "/lest/",
+    "us_ipa": "/lɛst/",
+    "pos": "conj",
+    "error_count": 1,
+    "mastered": false
+  },
+  "manifest": {
+    "meaning": "表明",
+    "uk_ipa": "/'mænɪfest/",
+    "us_ipa": "/'mænɪfɛst/",
+    "pos": "v",
+    "error_count": 1,
+    "mastered": false
+  },
+  "markedly": {
+    "meaning": "显著地",
+    "uk_ipa": "/'mɑ:kɪdlɪ/",
+    "us_ipa": "/'ma:kidli/",
+    "pos": "adv",
+    "error_count": 1,
+    "mastered": false
+  },
+  "melt": {
+    "meaning": "融化",
+    "uk_ipa": "/melt/",
+    "us_ipa": "/mɛlt/",
+    "pos": "v",
+    "error_count": 1,
+    "mastered": false
+  },
+  "migrate": {
+    "meaning": "移民，迁徙",
+    "uk_ipa": "/maɪ'greɪt/",
+    "us_ipa": "/'maɪɡret/",
+    "pos": "v",
+    "error_count": 1,
+    "mastered": false
+  },
+  "minimal": {
+    "meaning": "最低的，最小限度的",
+    "uk_ipa": "/'mɪnɪməl/",
+    "us_ipa": "/'mɪnɪməl/",
+    "pos": "adj",
+    "error_count": 1,
+    "mastered": false
+  },
+  "minority": {
+    "meaning": "少数，少数民族",
+    "uk_ipa": "/maɪ'nɒrəti/",
+    "us_ipa": "/maɪ'nɔrəti/",
+    "pos": "n",
+    "error_count": 1,
+    "mastered": false
+  },
+  "mobility": {
+    "meaning": "活动",
+    "uk_ipa": "/məʊˈbɪləti/",
+    "us_ipa": "/mo'bɪləti/",
+    "pos": "n",
+    "error_count": 1,
+    "mastered": false
+  },
+  "monopoly": {
+    "meaning": "垄断",
+    "uk_ipa": "/mə'nɒpəli/",
+    "us_ipa": "/mə'nɑpəli/",
+    "pos": "n",
+    "error_count": 1,
+    "mastered": false
+  },
+  "mortality": {
+    "meaning": "死亡率",
+    "uk_ipa": "/mɔ:ˈtæləti/",
+    "us_ipa": "/mɔr'tæləti/",
+    "pos": "n",
+    "error_count": 1,
+    "mastered": false
+  },
+  "municipal": {
+    "meaning": "政府的",
+    "uk_ipa": "/mjuː'nɪsɪpl/",
+    "us_ipa": "/mju'nɪsɪpl/",
+    "pos": "adj",
+    "error_count": 1,
+    "mastered": false
+  },
+  "necessity": {
+    "meaning": "必须，必要性",
+    "uk_ipa": "/nəˈsesəti/",
+    "us_ipa": "/nə'sɛsəti/",
+    "pos": "n",
+    "error_count": 1,
+    "mastered": false
+  },
+  "needy": {
+    "meaning": "贫穷的",
+    "uk_ipa": "/'ni:dɪ/",
+    "us_ipa": "/'nidi/",
+    "pos": "adj",
+    "error_count": 1,
+    "mastered": false
+  },
+  "neutrality": {
+    "meaning": "中立",
+    "uk_ipa": "/nju:ˈtræləti/",
+    "us_ipa": "/nu'træləti/",
+    "pos": "n",
+    "error_count": 1,
+    "mastered": false
+  },
+  "notion": {
+    "meaning": "想法，观点",
+    "uk_ipa": "/'nəuʃn/",
+    "us_ipa": "/'noʃən/",
+    "pos": "n",
+    "error_count": 1,
+    "mastered": false
+  },
+  "obesity": {
+    "meaning": "肥胖",
+    "uk_ipa": "/əu'biːsəti/",
+    "us_ipa": "/o'bisəti/",
+    "pos": "n",
+    "error_count": 1,
+    "mastered": false
+  },
+  "oblige": {
+    "meaning": "迫使",
+    "uk_ipa": "/ə'blaɪdʒ/",
+    "us_ipa": "/ə'blaɪdʒ/",
+    "pos": "v",
+    "error_count": 1,
+    "mastered": false
+  },
+  "obstacle": {
+    "meaning": "阻碍",
+    "uk_ipa": "/'ɒbstəkl/",
+    "us_ipa": "/'ɑbstəkl/",
+    "pos": "n",
+    "error_count": 1,
+    "mastered": false
+  },
+  "outlive": {
+    "meaning": "比……活的时间长",
+    "uk_ipa": "/ˌaʊt'lɪv/",
+    "us_ipa": "/,aʊt'lɪv/",
+    "pos": "v",
+    "error_count": 1,
+    "mastered": false
+  },
+  "outnumber": {
+    "meaning": "超过",
+    "uk_ipa": "/ˌaʊt'nʌmbə(r)/",
+    "us_ipa": "/'aʊt'nʌmbɚ/",
+    "pos": "v",
+    "error_count": 1,
+    "mastered": false
+  },
+  "outsource": {
+    "meaning": "外包",
+    "uk_ipa": "/ˈaʊtsɔ:s/",
+    "us_ipa": "/'aʊtsɔrs/",
+    "pos": "v",
+    "error_count": 1,
+    "mastered": false
+  },
+  "panic": {
+    "meaning": "恐慌的",
+    "uk_ipa": "/'pænɪk/",
+    "us_ipa": "/'pænɪk/",
+    "pos": "adj",
+    "error_count": 1,
+    "mastered": false
+  },
+  "paralyze": {
+    "meaning": "瘫痪，麻痹",
+    "uk_ipa": "/'pærəlaɪz/",
+    "us_ipa": "/'pærə,laɪz/",
+    "pos": "v",
+    "error_count": 1,
+    "mastered": false
+  },
+  "pasture": {
+    "meaning": "牧场",
+    "uk_ipa": "/'pɑːstʃə/",
+    "us_ipa": "/'pæstʃɚ/",
+    "pos": "n",
+    "error_count": 1,
+    "mastered": false
+  },
+  "peculiar": {
+    "meaning": "特有的，奇怪的",
+    "uk_ipa": "/pɪ'kjuːlɪə/",
+    "us_ipa": "/pɪ'kjulɪɚ/",
+    "pos": "adj",
+    "error_count": 1,
+    "mastered": false
+  },
+  "penalty": {
+    "meaning": "惩罚",
+    "uk_ipa": "/'penəlti/",
+    "us_ipa": "/'pɛnəlti/",
+    "pos": "n",
+    "error_count": 1,
+    "mastered": false
+  },
+  "pension": {
+    "meaning": "养老金",
+    "uk_ipa": "/'penʃn/",
+    "us_ipa": "/'pɛnʃən/",
+    "pos": "n",
+    "error_count": 1,
+    "mastered": false
+  },
+  "perish": {
+    "meaning": "死亡",
+    "uk_ipa": "/'perɪʃ/",
+    "us_ipa": "/'pɛrɪʃ/",
+    "pos": "v",
+    "error_count": 1,
+    "mastered": false
+  },
+  "pessimist": {
+    "meaning": "悲观主义者",
+    "uk_ipa": "/ˈpesɪmɪst/",
+    "us_ipa": "/'pɛsɪmɪst/",
+    "pos": "n",
+    "error_count": 1,
+    "mastered": false
+  },
+  "plot": {
+    "meaning": "情节",
+    "uk_ipa": "/plɒt/",
+    "us_ipa": "/plɑt/",
+    "pos": "n",
+    "error_count": 1,
+    "mastered": false
+  },
+  "ponder": {
+    "meaning": "仔细考虑",
+    "uk_ipa": "/'pɒndə/",
+    "us_ipa": "/'pɑndɚ/",
+    "pos": "v",
+    "error_count": 1,
+    "mastered": false
+  },
+  "prestige": {
+    "meaning": "名声，声望",
+    "uk_ipa": "/pre'stiːʒ/",
+    "us_ipa": "/prɛ'stidʒ/",
+    "pos": "n",
+    "error_count": 1,
+    "mastered": false
+  },
+  "primitive": {
+    "meaning": "原始的，简单的",
+    "uk_ipa": "/'prɪmətɪv/",
+    "us_ipa": "/'prɪmətɪv/",
+    "pos": "adj",
+    "error_count": 1,
+    "mastered": false
+  },
+  "publicity": {
+    "meaning": "宣传",
+    "uk_ipa": "/pʌbˈlɪsəti/",
+    "us_ipa": "/pʌb'lɪsəti/",
+    "pos": "n",
+    "error_count": 1,
+    "mastered": false
+  },
+  "realm": {
+    "meaning": "领域，方面",
+    "uk_ipa": "/relm/",
+    "us_ipa": "/rɛlm/",
+    "pos": "n",
+    "error_count": 1,
+    "mastered": false
+  },
+  "reap": {
+    "meaning": "收割，收获",
+    "uk_ipa": "/riːp/",
+    "us_ipa": "/rip/",
+    "pos": "v",
+    "error_count": 1,
+    "mastered": false
+  },
+  "recipe": {
+    "meaning": "秘方，食谱",
+    "uk_ipa": "/'resəpi/",
+    "us_ipa": "/'rɛsəpi/",
+    "pos": "n",
+    "error_count": 1,
+    "mastered": false
+  },
+  "reckon": {
+    "meaning": "认为，评价",
+    "uk_ipa": "/'rekən/",
+    "us_ipa": "/'rɛkən/",
+    "pos": "v",
+    "error_count": 1,
+    "mastered": false
+  },
+  "reconcile": {
+    "meaning": "使和解，使一致；调解",
+    "uk_ipa": "/'rekənsaɪl/",
+    "us_ipa": "/'rɛkənsaɪl/",
+    "pos": "v",
+    "error_count": 1,
+    "mastered": false
+  },
+  "reproduction": {
+    "meaning": "繁殖，复制；再现",
+    "uk_ipa": "/riːprə'dʌkʃ(ə)n/",
+    "us_ipa": "/,riprə'dʌkʃən/",
+    "pos": "n",
+    "error_count": 1,
+    "mastered": false
+  },
+  "resolute": {
+    "meaning": "坚定的，果断的",
+    "uk_ipa": "/'rezəluːt/",
+    "us_ipa": "/'rɛzəlut/",
+    "pos": "adj",
+    "error_count": 1,
+    "mastered": false
+  },
+  "responsive": {
+    "meaning": "反应的，积极响应的",
+    "uk_ipa": "/rɪˈspɒnsɪv/",
+    "us_ipa": "/rɪ'spɑnsɪv/",
+    "pos": "adj",
+    "error_count": 1,
+    "mastered": false
+  },
+  "revive": {
+    "meaning": "使复苏，恢复",
+    "uk_ipa": "/rɪ'vaɪv/",
+    "us_ipa": "/rɪ'vaɪv/",
+    "pos": "v",
+    "error_count": 1,
+    "mastered": false
+  },
+  "rigorous": {
+    "meaning": "严格的",
+    "uk_ipa": "/'rɪgərəs/",
+    "us_ipa": "/'rɪɡərəs/",
+    "pos": "adj",
+    "error_count": 1,
+    "mastered": false
+  },
+  "ritual": {
+    "meaning": "仪式",
+    "uk_ipa": "/'rɪtʃuəl/",
+    "us_ipa": "/'rɪtʃuəl/",
+    "pos": "n",
+    "error_count": 1,
+    "mastered": false
+  },
+  "rustle": {
+    "meaning": "发出沙沙声",
+    "uk_ipa": "/'rʌsl/",
+    "us_ipa": "/'rʌsl/",
+    "pos": "v",
+    "error_count": 1,
+    "mastered": false
+  },
+  "scarcity": {
+    "meaning": "缺乏",
+    "uk_ipa": "/ˈskeəsəti/",
+    "us_ipa": "/ˈskersəti/",
+    "pos": "n",
+    "error_count": 1,
+    "mastered": false
+  },
+  "sensible": {
+    "meaning": "理智的",
+    "uk_ipa": "/'sensəbl/",
+    "us_ipa": "/'sɛnsəbl/",
+    "pos": "adj",
+    "error_count": 1,
+    "mastered": false
+  },
+  "severity": {
+    "meaning": "严重性",
+    "uk_ipa": "/sɪ'verətɪ/",
+    "us_ipa": "/sə'vɛrəti/",
+    "pos": "n",
+    "error_count": 1,
+    "mastered": false
+  },
+  "sexism": {
+    "meaning": "性别歧视",
+    "uk_ipa": "/ˈseksɪzəm/",
+    "us_ipa": "/'sɛk'sɪzəm/",
+    "pos": "n",
+    "error_count": 1,
+    "mastered": false
+  },
+  "shed": {
+    "meaning": "流出",
+    "uk_ipa": "/ʃed/",
+    "us_ipa": "/ʃɛd/",
+    "pos": "v",
+    "error_count": 1,
+    "mastered": false
+  },
+  "sheer": {
+    "meaning": "纯粹的",
+    "uk_ipa": "/ʃɪə/",
+    "us_ipa": "/ʃɪr/",
+    "pos": "adj",
+    "error_count": 1,
+    "mastered": false
+  },
+  "shepherd": {
+    "meaning": "引导，带领",
+    "uk_ipa": "/'ʃepəd/",
+    "us_ipa": "/'ʃɛpɚd/",
+    "pos": "v",
+    "error_count": 1,
+    "mastered": false
+  },
+  "shrewd": {
+    "meaning": "精明的",
+    "uk_ipa": "/ʃruːd/",
+    "us_ipa": "/ʃrud/",
+    "pos": "adj",
+    "error_count": 1,
+    "mastered": false
+  },
+  "shrug": {
+    "meaning": "耸肩",
+    "uk_ipa": "/ʃrʌg/",
+    "us_ipa": "/ʃrʌɡ/",
+    "pos": "v",
+    "error_count": 1,
+    "mastered": false
+  },
+  "signify": {
+    "meaning": "表明，象征",
+    "uk_ipa": "/'sɪgnɪfaɪ/",
+    "us_ipa": "/'sɪɡnɪfaɪ/",
+    "pos": "v",
+    "error_count": 1,
+    "mastered": false
+  },
+  "skyrocket": {
+    "meaning": "猛增",
+    "uk_ipa": "/'skaɪrɒkɪt/",
+    "us_ipa": "/'skaɪ'rɑkɪt/",
+    "pos": "v",
+    "error_count": 1,
+    "mastered": false
+  },
+  "skyscraper": {
+    "meaning": "摩天大楼",
+    "uk_ipa": "/'skaɪskreɪpə/",
+    "us_ipa": "/'skaɪ'skrepɚ/",
+    "pos": "n",
+    "error_count": 1,
+    "mastered": false
+  },
+  "slack": {
+    "meaning": "疲软的，萧条的",
+    "uk_ipa": "/slæk/",
+    "us_ipa": "/slæk/",
+    "pos": "adj",
+    "error_count": 1,
+    "mastered": false
+  },
+  "soothe": {
+    "meaning": "安慰，减轻",
+    "uk_ipa": "/su:ð/",
+    "us_ipa": "/sʊð/",
+    "pos": "v",
+    "error_count": 1,
+    "mastered": false
+  },
+  "spacious": {
+    "meaning": "宽敞的",
+    "uk_ipa": "/'speɪʃəs/",
+    "us_ipa": "/'speʃəs/",
+    "pos": "adj",
+    "error_count": 1,
+    "mastered": false
+  },
+  "species": {
+    "meaning": "物种",
+    "uk_ipa": "/'spiːʃiːz/",
+    "us_ipa": "/'spiʃiz/",
+    "pos": "n",
+    "error_count": 1,
+    "mastered": false
+  },
+  "spectacle": {
+    "meaning": "景象",
+    "uk_ipa": "/'spektəkl/",
+    "us_ipa": "/'spɛktəkl/",
+    "pos": "n",
+    "error_count": 1,
+    "mastered": false
+  },
+  "squalor": {
+    "meaning": "肮脏",
+    "uk_ipa": "/ˈskwɒlə(r)/",
+    "us_ipa": "/'skwɔlɚ/",
+    "pos": "n",
+    "error_count": 1,
+    "mastered": false
+  },
+  "startle": {
+    "meaning": "使惊讶",
+    "uk_ipa": "/'stɑːtl/",
+    "us_ipa": "/'stɑrtl/",
+    "pos": "v",
+    "error_count": 1,
+    "mastered": false
+  },
+  "stray": {
+    "meaning": "迷路，流浪",
+    "uk_ipa": "/streɪ/",
+    "us_ipa": "/stre/",
+    "pos": "n",
+    "error_count": 1,
+    "mastered": false
+  },
+  "submerge": {
+    "meaning": "淹没",
+    "uk_ipa": "/səb'mɜ:dʒ/",
+    "us_ipa": "/səb'mɝdʒ/",
+    "pos": "v",
+    "error_count": 1,
+    "mastered": false
+  },
+  "subtle": {
+    "meaning": "微妙的",
+    "uk_ipa": "/'sʌtl/",
+    "us_ipa": "/'sʌtl/",
+    "pos": "adj",
+    "error_count": 1,
+    "mastered": false
+  },
+  "sway": {
+    "meaning": "影响",
+    "uk_ipa": "/sweɪ/",
+    "us_ipa": "/swe/",
+    "pos": "v",
+    "error_count": 1,
+    "mastered": false
+  },
+  "tackle": {
+    "meaning": "解决，处理",
+    "uk_ipa": "/'tækl/",
+    "us_ipa": "/'tækl/",
+    "pos": "v",
+    "error_count": 1,
+    "mastered": false
+  },
+  "testimony": {
+    "meaning": "证词",
+    "uk_ipa": "/'testɪməni/",
+    "us_ipa": "/'tɛstə'moni/",
+    "pos": "n",
+    "error_count": 1,
+    "mastered": false
+  },
+  "texture": {
+    "meaning": "质地",
+    "uk_ipa": "/'tekstʃə/",
+    "us_ipa": "/'tɛkstʃɚ/",
+    "pos": "v",
+    "error_count": 1,
+    "mastered": false
+  },
+  "threshold": {
+    "meaning": "门槛",
+    "uk_ipa": "/'θreʃhəuld/",
+    "us_ipa": "/'θrɛʃhold/",
+    "pos": "n",
+    "error_count": 1,
+    "mastered": false
+  },
+  "underlying": {
+    "meaning": "潜在的，基础的",
+    "uk_ipa": "/ˌʌndə'laɪɪŋ/",
+    "us_ipa": "/,ʌndɚ'laɪɪŋ/",
+    "pos": "adj",
+    "error_count": 1,
+    "mastered": false
+  },
+  "unethical": {
+    "meaning": "不道德的",
+    "uk_ipa": "/ʌnˈeθɪkl/",
+    "us_ipa": "/ʌn'ɛθɪkl/",
+    "pos": "adj",
+    "error_count": 1,
+    "mastered": false
+  },
+  "wishful": {
+    "meaning": "一厢情愿的",
+    "uk_ipa": "/'wɪʃfəl/",
+    "us_ipa": "/'wɪʃfəl/",
+    "pos": "adj",
+    "error_count": 1,
+    "mastered": false
+  },
+  "cripple": {
+    "meaning": "残疾，跛子",
+    "uk_ipa": "/'krɪpl/",
+    "us_ipa": "/'krɪpl/",
+    "pos": "n",
+    "error_count": 1,
+    "mastered": false
+  },
+  "aptly": {
+    "meaning": "适当地",
+    "uk_ipa": "/ˈæptlɪ/",
+    "us_ipa": "/'æptli/",
+    "pos": "adv",
+    "error_count": 1,
+    "mastered": false
+  },
+  "assimilate": {
+    "meaning": "同化",
+    "uk_ipa": "/ə'sɪməleɪt/",
+    "us_ipa": "/ə'sɪməlet/",
+    "pos": "v",
+    "error_count": 1,
+    "mastered": false
+  },
+  "ingenuity": {
+    "meaning": "独创力；心灵手巧；聪明才智",
+    "uk_ipa": "/ˌɪndʒəˈnjuːəti/",
+    "us_ipa": "/ˌɪndʒəˈnuːəti/",
+    "pos": "n",
+    "error_count": 1,
+    "mastered": false
+  },
+  "unbiased": {
+    "meaning": "公正的",
+    "uk_ipa": "/ʌnˈbaɪəst/",
+    "us_ipa": "/ʌn'baɪəst/",
+    "pos": "adj",
+    "error_count": 1,
+    "mastered": false
+  },
+  "inferior": {
+    "meaning": "比……差",
+    "uk_ipa": "/ɪn'fɪəriə/",
+    "us_ipa": "/ɪn'fɪrɪɚ/",
+    "pos": "adj",
+    "error_count": 1,
+    "mastered": false
+  },
+  "fertility": {
+    "meaning": "多产，肥沃",
+    "uk_ipa": "/fəˈtɪləti/",
+    "us_ipa": "/fɚ'tɪləti/",
+    "pos": "n",
+    "error_count": 1,
+    "mastered": false
+  },
+  "bleak": {
+    "meaning": "荒凉的",
+    "uk_ipa": "/bli:k/",
+    "us_ipa": "/blik/",
+    "pos": "adj",
+    "error_count": 1,
+    "mastered": false
+  },
+  "soar": {
+    "meaning": "高飞",
+    "uk_ipa": "/sɔː/",
+    "us_ipa": "/sɔr/",
+    "pos": "v",
+    "error_count": 1,
+    "mastered": false
+  },
+  "pragmatic": {
+    "meaning": "务实的，讲求实际的",
+    "uk_ipa": "/prægˈmætɪk/",
+    "us_ipa": "/præg'mætɪk/",
+    "pos": "adj",
+    "error_count": 1,
+    "mastered": false
+  },
+  "compromise": {
+    "meaning": "妥协；危害",
+    "uk_ipa": "/'kɒmprəmaɪz/",
+    "us_ipa": "/'kɑmprəmaɪz/",
+    "pos": "v",
+    "error_count": 1,
+    "mastered": false
+  },
+  "perpetual": {
+    "meaning": "永久的",
+    "uk_ipa": "/pə'petʃuəl/",
+    "us_ipa": "/pɚ'pɛtʃuəl/",
+    "pos": "adj",
+    "error_count": 1,
+    "mastered": false
+  },
+  "dispensable": {
+    "meaning": "可有可无的",
+    "uk_ipa": "/dɪˈspensəbl/",
+    "us_ipa": "/dɪ'spɛnsəbl/",
+    "pos": "adj",
+    "error_count": 1,
+    "mastered": false
+  },
+  "assault": {
+    "meaning": "攻击",
+    "uk_ipa": "/ə'sɔːlt/",
+    "us_ipa": "/ə'sɔlt/",
+    "pos": "n",
+    "error_count": 1,
+    "mastered": false
+  },
+  "baffle": {
+    "meaning": "使迷惑，困惑",
+    "uk_ipa": "/'bæf(ə)l/",
+    "us_ipa": "/'bæfl/",
+    "pos": "v",
+    "error_count": 1,
+    "mastered": false
+  },
+  "peer": {
+    "meaning": "同龄人",
+    "uk_ipa": "/pɪə/",
+    "us_ipa": "/pɪr/",
+    "pos": "n",
+    "error_count": 1,
+    "mastered": false
+  },
+  "abolition": {
+    "meaning": "废除",
+    "uk_ipa": "/ˌæbəˈlɪʃn/",
+    "us_ipa": "/,æbə'lɪʃən/",
+    "pos": "n",
+    "error_count": 1,
+    "mastered": false
+  },
+  "trait": {
+    "meaning": "特点",
+    "uk_ipa": "/treɪt/",
+    "us_ipa": "/tret/",
+    "pos": "n",
+    "error_count": 1,
+    "mastered": false
+  },
+  "deviate": {
+    "meaning": "偏离",
+    "uk_ipa": "/'diːvieɪt/",
+    "us_ipa": "/'divɪet/",
+    "pos": "v",
+    "error_count": 1,
+    "mastered": false
+  },
+  "successively": {
+    "meaning": "接连着地，继续地",
+    "uk_ipa": "/sək'sesɪvlɪ/",
+    "us_ipa": "/sək'sɛsɪvli/",
+    "pos": "adv",
+    "error_count": 1,
+    "mastered": false
+  },
+  "toxic": {
+    "meaning": "有毒的",
+    "uk_ipa": "/'tɒksɪk/",
+    "us_ipa": "/'tɑksɪk/",
+    "pos": "adj",
+    "error_count": 1,
+    "mastered": false
+  },
+  "curriculum": {
+    "meaning": "课程",
+    "uk_ipa": "/kəˈrɪkjələm/",
+    "us_ipa": "/kə'rɪkjələm/",
+    "pos": "n",
+    "error_count": 1,
+    "mastered": false
+  },
+  "cafeteria": {
+    "meaning": "自助餐厅",
+    "uk_ipa": "/ˌkæfə'tɪəriə/",
+    "us_ipa": "/,kæfə'tɪrɪə/",
+    "pos": "n",
+    "error_count": 1,
+    "mastered": false
+  },
+  "bloom": {
+    "meaning": "开花，茂盛",
+    "uk_ipa": "/blu:m/",
+    "us_ipa": "/blum/",
+    "pos": "v",
+    "error_count": 1,
+    "mastered": false
+  },
+  "plough": {
+    "meaning": "犁",
+    "uk_ipa": "/plaʊ/",
+    "us_ipa": "/plaʊ/",
+    "pos": "n",
+    "error_count": 1,
+    "mastered": false
+  },
+  "hazardous": {
+    "meaning": "危险的",
+    "uk_ipa": "/'hæzədəs/",
+    "us_ipa": "/'hæzɚdəs/",
+    "pos": "adj",
+    "error_count": 1,
+    "mastered": false
+  },
+  "instantaneous": {
+    "meaning": "即时的，瞬间的",
+    "uk_ipa": "/ˌɪnstən'teɪniəs/",
+    "us_ipa": "/,ɪnstən'tenɪəs/",
+    "pos": "adj",
+    "error_count": 1,
+    "mastered": false
+  },
+  "intrinsic": {
+    "meaning": "本质的，固有的",
+    "uk_ipa": "/ɪn'trɪnsɪk/",
+    "us_ipa": "/ɪn'trɪnsɪk/",
+    "pos": "adj",
+    "error_count": 1,
+    "mastered": false
+  },
+  "paradox": {
+    "meaning": "悖论",
+    "uk_ipa": "/'pærədɒks/",
+    "us_ipa": "/'pærədɑks/",
+    "pos": "n",
+    "error_count": 1,
+    "mastered": false
+  },
+  "consent": {
+    "meaning": "同意",
+    "uk_ipa": "/kən'sent/",
+    "us_ipa": "/kən'sɛnt/",
+    "pos": "n",
+    "error_count": 1,
+    "mastered": false
+  },
+  "intuitive": {
+    "meaning": "直觉的",
+    "uk_ipa": "/ɪnˈtju:ɪtɪv/",
+    "us_ipa": "/ɪn'tuɪtɪv/",
+    "pos": "adj",
+    "error_count": 1,
+    "mastered": false
+  },
+  "scaffolding": {
+    "meaning": "脚手架",
+    "uk_ipa": "/ˈskæfəldɪŋ/",
+    "us_ipa": "/'skæfəldɪŋ/",
+    "pos": "n",
+    "error_count": 1,
+    "mastered": false
+  },
+  "discern": {
+    "meaning": "识别",
+    "uk_ipa": "/dɪ'sɜːn/",
+    "us_ipa": "/dɪ'sɝn/",
+    "pos": "v",
+    "error_count": 1,
+    "mastered": false
+  },
+  "tedious": {
+    "meaning": "冗长的",
+    "uk_ipa": "/'tiːdiəs/",
+    "us_ipa": "/'tidɪəs/",
+    "pos": "adj",
+    "error_count": 1,
+    "mastered": false
+  },
+  "fluctuate": {
+    "meaning": "波动",
+    "uk_ipa": "/'flʌktʃueɪt/",
+    "us_ipa": "/'flʌktʃʊ'et/",
+    "pos": "v",
+    "error_count": 1,
+    "mastered": false
+  },
+  "deteriorate": {
+    "meaning": "恶化",
+    "uk_ipa": "/dɪ'tɪəriəreɪt/",
+    "us_ipa": "/dɪ'tɪrɪəret/",
+    "pos": "v",
+    "error_count": 1,
+    "mastered": false
+  },
+  "hasten": {
+    "meaning": "加速",
+    "uk_ipa": "/ˈheɪsn/",
+    "us_ipa": "/'hesn/",
+    "pos": "v",
+    "error_count": 1,
+    "mastered": false
+  },
+  "bemoan": {
+    "meaning": "抱怨；惋惜",
+    "uk_ipa": "/bɪˈməʊn/",
+    "us_ipa": "/bɪ'mon/",
+    "pos": "v",
+    "error_count": 1,
+    "mastered": false
+  },
+  "hurl": {
+    "meaning": "猛投",
+    "uk_ipa": "/hɜːl/",
+    "us_ipa": "/hɝl/",
+    "pos": "v",
+    "error_count": 1,
+    "mastered": false
+  },
+  "confer": {
+    "meaning": "授予",
+    "uk_ipa": "/kən'fɜː/",
+    "us_ipa": "/kən'fɝ/",
+    "pos": "v",
+    "error_count": 1,
+    "mastered": false
+  },
+  "jeopardize": {
+    "meaning": "危害，危及",
+    "uk_ipa": "/'dʒepədaɪz/",
+    "us_ipa": "/'dʒɛpɚdaɪz/",
+    "pos": "v",
+    "error_count": 1,
+    "mastered": false
+  },
+  "allegedly": {
+    "meaning": "据说",
+    "uk_ipa": "/ə'ledʒɪdlɪ/",
+    "us_ipa": "/ə'lɛdʒɪdli/",
+    "pos": "adv",
+    "error_count": 1,
+    "mastered": false
+  },
+  "vigorous": {
+    "meaning": "积极的；精力充沛的",
+    "uk_ipa": "/'vɪgərəs/",
+    "us_ipa": "/'vɪɡərəs/",
+    "pos": "adj",
+    "error_count": 1,
+    "mastered": false
+  },
+  "contestant": {
+    "meaning": "参赛者",
+    "uk_ipa": "/kənˈtestənt/",
+    "us_ipa": "/kən'tɛstənt/",
+    "pos": "n",
+    "error_count": 1,
+    "mastered": false
+  },
+  "linger": {
+    "meaning": "逗留，徘徊",
+    "uk_ipa": "/'lɪŋgə/",
+    "us_ipa": "/'lɪŋɡɚ/",
+    "pos": "v",
+    "error_count": 1,
+    "mastered": false
+  },
+  "eligible": {
+    "meaning": "适合的；胜任的",
+    "uk_ipa": "/'elɪdʒəbl/",
+    "us_ipa": "/'ɛlɪdʒəbl/",
+    "pos": "adj",
+    "error_count": 1,
+    "mastered": false
+  },
+  "enviable": {
+    "meaning": "值得羡慕的",
+    "uk_ipa": "/ˈenviəbl/",
+    "us_ipa": "/'ɛnvɪəbl/",
+    "pos": "adj",
+    "error_count": 1,
+    "mastered": false
+  },
+  "bipartisan": {
+    "meaning": "两党的",
+    "uk_ipa": "/ˌbaɪpɑ:tɪˈzæn/",
+    "us_ipa": "/,baɪ'pɑrtɪzn/",
+    "pos": "adj",
+    "error_count": 1,
+    "mastered": false
+  },
+  "rhetorical": {
+    "meaning": "修辞的",
+    "uk_ipa": "/rɪˈtɒrɪkl/",
+    "us_ipa": "/rɪ'tɔrɪkl/",
+    "pos": "adj",
+    "error_count": 1,
+    "mastered": false
+  },
+  "impair": {
+    "meaning": "损害",
+    "uk_ipa": "/ɪm'peə/",
+    "us_ipa": "/ɪm'pɛr/",
+    "pos": "v",
+    "error_count": 1,
+    "mastered": false
+  },
+  "undermine": {
+    "meaning": "暗中削弱",
+    "uk_ipa": "/ˌʌndə'maɪn/",
+    "us_ipa": "/'ʌndɚ'maɪn/",
+    "pos": "v",
+    "error_count": 1,
+    "mastered": false
+  },
+  "utterly": {
+    "meaning": "完全地，彻底地",
+    "uk_ipa": "/'ʌtəli:/",
+    "us_ipa": "/'ʌtɚli/",
+    "pos": "adv",
+    "error_count": 1,
+    "mastered": false
+  },
+  "inanimate": {
+    "meaning": "无生命的",
+    "uk_ipa": "/ɪnˈænɪmət/",
+    "us_ipa": "/ɪn'ænɪmət/",
+    "pos": "adj",
+    "error_count": 1,
+    "mastered": false
+  },
+  "bump": {
+    "meaning": "颠簸",
+    "uk_ipa": "/bʌmp/",
+    "us_ipa": "/bʌmp/",
+    "pos": "v",
+    "error_count": 1,
+    "mastered": false
+  },
+  "cozy": {
+    "meaning": "舒适的",
+    "uk_ipa": "/'kəuzi/",
+    "us_ipa": "/'kozi/",
+    "pos": "adj",
+    "error_count": 1,
+    "mastered": false
+  },
+  "exertion": {
+    "meaning": "运用",
+    "uk_ipa": "/ɪɡˈzɜːʃn/",
+    "us_ipa": "/ɪɡ'zɝʃən/",
+    "pos": "n",
+    "error_count": 1,
+    "mastered": false
+  },
+  "impart": {
+    "meaning": "传授，教授",
+    "uk_ipa": "/ɪm'pɑːt/",
+    "us_ipa": "/ɪm'pɑrt/",
+    "pos": "v",
+    "error_count": 1,
+    "mastered": false
+  },
+  "provoke": {
+    "meaning": "激怒",
+    "uk_ipa": "/prə'vəuk/",
+    "us_ipa": "/prə'vok/",
+    "pos": "v",
+    "error_count": 1,
+    "mastered": false
+  },
+  "chronic": {
+    "meaning": "长期的；慢性的",
+    "uk_ipa": "/'krɒnɪk/",
+    "us_ipa": "/'krɑnɪk/",
+    "pos": "adj",
+    "error_count": 1,
+    "mastered": false
+  },
+  "adversity": {
+    "meaning": "逆境",
+    "uk_ipa": "/ədˈvɜːsəti/",
+    "us_ipa": "/əd'vɝsəti/",
+    "pos": "n",
+    "error_count": 1,
+    "mastered": false
+  },
+  "assert": {
+    "meaning": "主张，断言",
+    "uk_ipa": "/ə'sɜːt/",
+    "us_ipa": "/ə'sɝt/",
+    "pos": "v",
+    "error_count": 1,
+    "mastered": false
+  },
+  "throne": {
+    "meaning": "王位",
+    "uk_ipa": "/θrəun/",
+    "us_ipa": "/θron/",
+    "pos": "n",
+    "error_count": 1,
+    "mastered": false
+  },
+  "invasive": {
+    "meaning": "入侵的",
+    "uk_ipa": "/ɪnˈveɪsɪv/",
+    "us_ipa": "/ɪn'vesɪv/",
+    "pos": "adj",
+    "error_count": 1,
+    "mastered": false
+  },
+  "incur": {
+    "meaning": "引起，导致",
+    "uk_ipa": "/ɪn'kɜː/",
+    "us_ipa": "/ɪn'kɝ/",
+    "pos": "v",
+    "error_count": 1,
+    "mastered": false
+  },
+  "integral": {
+    "meaning": "完整的",
+    "uk_ipa": "/'ɪntɪgrəl/",
+    "us_ipa": "/'ɪntɪɡrəl/",
+    "pos": "adj",
+    "error_count": 1,
+    "mastered": false
+  },
+  "conspicuous": {
+    "meaning": "显著的",
+    "uk_ipa": "/kən'spɪkjuəs/",
+    "us_ipa": "/kən'spɪkjʊəs/",
+    "pos": "adj",
+    "error_count": 1,
+    "mastered": false
+  },
+  "duplication": {
+    "meaning": "复制品",
+    "uk_ipa": "/ˌdjuːplɪˈkeɪʃn/",
+    "us_ipa": "/,djʊplɪ'keʃən/",
+    "pos": "n",
+    "error_count": 1,
+    "mastered": false
+  },
+  "identical": {
+    "meaning": "相同的",
+    "uk_ipa": "/aɪ'dentɪkl/",
+    "us_ipa": "/aɪ'dɛntɪkl/",
+    "pos": "adj",
+    "error_count": 1,
+    "mastered": false
+  },
+  "segregation": {
+    "meaning": "隔离",
+    "uk_ipa": "/ˌseɡrɪˈɡeɪʃn/",
+    "us_ipa": "/'sɛgrɪ'geʃən/",
+    "pos": "n",
+    "error_count": 1,
+    "mastered": false
+  },
+  "embrace": {
+    "meaning": "采纳，接受",
+    "uk_ipa": "/ɪm'breɪs; em-/",
+    "us_ipa": "/ɪm'bres/",
+    "pos": "v",
+    "error_count": 1,
+    "mastered": false
+  },
+  "odds": {
+    "meaning": "可能性",
+    "uk_ipa": "/ɒdz/",
+    "us_ipa": "/ɑdz/",
+    "pos": "n",
+    "error_count": 1,
+    "mastered": false
+  },
+  "hijack": {
+    "meaning": "劫持",
+    "uk_ipa": "/ˈhaɪˌdʒæk/",
+    "us_ipa": "/'haɪdʒæk/",
+    "pos": "v",
+    "error_count": 1,
+    "mastered": false
+  },
+  "obscurity": {
+    "meaning": "默默无闻",
+    "uk_ipa": "/əb'skjʊrəti/",
+    "us_ipa": "/əb'skjʊrəti/",
+    "pos": "n",
+    "error_count": 1,
+    "mastered": false
+  },
+  "badge": {
+    "meaning": "标记，徽章",
+    "uk_ipa": "/bædʒ/",
+    "us_ipa": "/bædʒ/",
+    "pos": "n",
+    "error_count": 1,
+    "mastered": false
+  },
+  "robust": {
+    "meaning": "强健的",
+    "uk_ipa": "/rəu'bʌst/",
+    "us_ipa": "/ro'bʌst/",
+    "pos": "adj",
+    "error_count": 1,
+    "mastered": false
+  },
+  "appropriation": {
+    "meaning": "挪用",
+    "uk_ipa": "/əˌprəupri'eɪʃn/",
+    "us_ipa": "/ə,proprɪ'eʃən/",
+    "pos": "n",
+    "error_count": 1,
+    "mastered": false
+  },
+  "sneak": {
+    "meaning": "溜走",
+    "uk_ipa": "/sniːk/",
+    "us_ipa": "/snik/",
+    "pos": "v",
+    "error_count": 1,
+    "mastered": false
+  },
+  "monopolize": {
+    "meaning": "垄断",
+    "uk_ipa": "/mə'nɑpə'laɪz/",
+    "us_ipa": "/mə'nɑpə'laɪz/",
+    "pos": "v",
+    "error_count": 1,
+    "mastered": false
+  },
+  "imperative": {
+    "meaning": "必须的，必要的",
+    "uk_ipa": "/ɪm'perətɪv/",
+    "us_ipa": "/ɪm'pɛrətɪv/",
+    "pos": "adj",
+    "error_count": 1,
+    "mastered": false
+  },
+  "agony": {
+    "meaning": "痛苦",
+    "uk_ipa": "/'ægəni/",
+    "us_ipa": "/'æɡəni/",
+    "pos": "n",
+    "error_count": 1,
+    "mastered": false
+  },
+  "thrilling": {
+    "meaning": "令人兴奋的",
+    "uk_ipa": "/'θrɪlɪŋ/",
+    "us_ipa": "/'θrɪlɪŋ/",
+    "pos": "adj",
+    "error_count": 1,
+    "mastered": false
+  },
+  "prematurely": {
+    "meaning": "早熟地，过早地",
+    "uk_ipa": "/'premətʃəlɪ/",
+    "us_ipa": "/,primə'tjʊrli/",
+    "pos": "adv",
+    "error_count": 1,
+    "mastered": false
+  },
+  "pessimistic": {
+    "meaning": "悲观的",
+    "uk_ipa": "/ˌpesɪ'mɪstɪk/",
+    "us_ipa": "/,pɛsɪ'mɪstɪk/",
+    "pos": "adj",
+    "error_count": 1,
+    "mastered": false
+  },
+  "shrank": {
+    "meaning": "收缩（shrink过去式）",
+    "uk_ipa": "/ʃræŋk/",
+    "us_ipa": "/ʃræŋk/",
+    "pos": "v",
+    "error_count": 1,
+    "mastered": false
+  },
+  "rigor": {
+    "meaning": "严格",
+    "uk_ipa": "/'riɡə/",
+    "us_ipa": "/'rɪgɚ/",
+    "pos": "n",
+    "error_count": 1,
+    "mastered": false
+  },
+  "malicious": {
+    "meaning": "恶毒的",
+    "uk_ipa": "/mə'lɪʃəs/",
+    "us_ipa": "/mə'lɪʃəs/",
+    "pos": "adj",
+    "error_count": 1,
+    "mastered": false
+  },
+  "metropolitan": {
+    "meaning": "大都市的",
+    "uk_ipa": "/ˌmetrə'pɒlɪtən/",
+    "us_ipa": "/,mɛtrə'pɑlɪtən/",
+    "pos": "adj",
+    "error_count": 1,
+    "mastered": false
+  },
+  "prominent": {
+    "meaning": "卓越的，突出的",
+    "uk_ipa": "/'prɒmɪnənt/",
+    "us_ipa": "/'prɑmɪnənt/",
+    "pos": "adj",
+    "error_count": 1,
+    "mastered": false
+  },
+  "prevalence": {
+    "meaning": "流行，普遍",
+    "uk_ipa": "/'prevələns/",
+    "us_ipa": "/'prɛvələns/",
+    "pos": "n",
+    "error_count": 1,
+    "mastered": false
+  },
+  "compact": {
+    "meaning": "紧密的，紧凑的",
+    "uk_ipa": "/kəm'pækt/",
+    "us_ipa": "/'kɑmpækt/",
+    "pos": "adj",
+    "error_count": 1,
+    "mastered": false
+  },
+  "correlation": {
+    "meaning": "相关，关联",
+    "uk_ipa": "/,kɒrə'leɪʃ(ə)n; -rɪ-/",
+    "us_ipa": "/,kɔrə'leʃən/",
+    "pos": "n",
+    "error_count": 1,
+    "mastered": false
+  },
+  "descent": {
+    "meaning": "血统，后裔",
+    "uk_ipa": "/dɪ'sent/",
+    "us_ipa": "/dɪ'sɛnt/",
+    "pos": "n",
+    "error_count": 1,
+    "mastered": false
+  },
+  "affiliation": {
+    "meaning": "隶属关系，单位团体",
+    "uk_ipa": "/ə,fɪlɪ'eʃən/",
+    "us_ipa": "/ə,fɪlɪ'eʃən/",
+    "pos": "n",
+    "error_count": 1,
+    "mastered": false
+  },
+  "extracurricular": {
+    "meaning": "课外的",
+    "uk_ipa": "/ekstrəkə'rɪkjʊlə/",
+    "us_ipa": "/,ɛkstrəkə'rɪkjəlɚ/",
+    "pos": "adj",
+    "error_count": 1,
+    "mastered": false
+  },
+  "deprivation": {
+    "meaning": "剥夺，匮乏",
+    "uk_ipa": "/deprɪ'veɪʃ(ə)n/",
+    "us_ipa": "/,dɛprɪ'veʃən/",
+    "pos": "n",
+    "error_count": 1,
+    "mastered": false
+  },
+  "cater": {
+    "meaning": "迎合",
+    "uk_ipa": "/'keɪtə/",
+    "us_ipa": "/'ketɚ/",
+    "pos": "v",
+    "error_count": 1,
+    "mastered": false
+  },
+  "pierce": {
+    "meaning": "刺穿",
+    "uk_ipa": "/pɪəs/",
+    "us_ipa": "/pɪrs/",
+    "pos": "v",
+    "error_count": 1,
+    "mastered": false
+  },
+  "chronically": {
+    "meaning": "慢性地；持久地",
+    "uk_ipa": "/'krɑnɪkli/",
+    "us_ipa": "/'krɑnɪkli/",
+    "pos": "adv",
+    "error_count": 1,
+    "mastered": false
+  },
+  "cultivate": {
+    "meaning": "培养",
+    "uk_ipa": "/'kʌltɪvet/",
+    "us_ipa": "/'kʌltɪvet/",
+    "pos": "v",
+    "error_count": 1,
+    "mastered": false
+  },
+  "novel": {
+    "meaning": "adj 新颖的",
+    "uk_ipa": "/'nɒv(ə)l/",
+    "us_ipa": "/ˈnɑːvl/",
+    "pos": "adj",
+    "error_count": 1,
+    "mastered": false
+  },
+  "irrational": {
+    "meaning": "adj 不合理的，不理性的",
+    "uk_ipa": "/ɪ'ræʃ(ə)n(ə)l/",
+    "us_ipa": "/ɪ'ræʃənl/",
+    "pos": "adj",
+    "error_count": 1,
+    "mastered": false
+  },
+  "lobbyist": {
+    "meaning": "n 游说者，说客",
+    "uk_ipa": "/'lɒbɪɪst/",
+    "us_ipa": "/'lɑbɪɪst/",
+    "pos": "n",
+    "error_count": 1,
+    "mastered": false
+  },
+  "contaminate": {
+    "meaning": "v 污染，弄脏",
+    "uk_ipa": "/kən'tæmɪneɪt/",
+    "us_ipa": "/kən'tæmɪnet/",
+    "pos": "v",
+    "error_count": 1,
+    "mastered": false
+  },
+  "prevail": {
+    "meaning": "v 盛行，流行；占优势",
+    "uk_ipa": "/prɪ'veɪl/",
+    "us_ipa": "/pri'vel/",
+    "pos": "v",
+    "error_count": 1,
+    "mastered": false
+  },
+  "lofty": {
+    "meaning": "adj 高耸的；崇高的",
+    "uk_ipa": "/'lɒfti/",
+    "us_ipa": "/'lɔfti/",
+    "pos": "adj",
+    "error_count": 1,
+    "mastered": false
+  },
+  "render": {
+    "meaning": "v 致使；提供；rendering 翻译",
+    "uk_ipa": "/'rendə/",
+    "us_ipa": "/'rɛndɚ/",
+    "pos": "v",
+    "error_count": 1,
+    "mastered": false
+  },
+  "gown": {
+    "meaning": "n 女礼服；长袍",
+    "uk_ipa": "/gaun/",
+    "us_ipa": "/ɡaʊn/",
+    "pos": "n",
+    "error_count": 1,
+    "mastered": false
+  },
+  "costume": {
+    "meaning": "n 服装，戏装",
+    "uk_ipa": "/'kɒstjuːm/",
+    "us_ipa": "/ˈkɑsˌtum/",
+    "pos": "n",
+    "error_count": 1,
+    "mastered": false
+  },
+  "grunt": {
+    "meaning": "v 咕哝；n 咕哝声",
+    "uk_ipa": "/grʌnt/",
+    "us_ipa": "/ɡrʌnt/",
+    "pos": "v",
+    "error_count": 1,
+    "mastered": false
+  },
+  "abide": {
+    "meaning": "v 忍受；遵守",
+    "uk_ipa": "/ə'baɪd/",
+    "us_ipa": "/ə'baɪd/",
+    "pos": "v",
+    "error_count": 1,
+    "mastered": false
+  },
+  "ample": {
+    "meaning": "adj 充足的，充裕的",
+    "uk_ipa": "/'æmp(ə)l/",
+    "us_ipa": "/'æmpl/",
+    "pos": "adj",
+    "error_count": 1,
+    "mastered": false
+  },
+  "suffice": {
+    "meaning": "v 足够，满足要求",
+    "uk_ipa": "/sə'faɪs/",
+    "us_ipa": "/sə'faɪs/",
+    "pos": "v",
+    "error_count": 1,
+    "mastered": false
+  },
+  "conceit": {
+    "meaning": "n 自负，自大",
+    "uk_ipa": "/kən'siːt/",
+    "us_ipa": "/kən'sit/",
+    "pos": "n",
+    "error_count": 1,
+    "mastered": false
+  },
+  "endow": {
+    "meaning": "v 资助；赋予",
+    "uk_ipa": "/ɪn'dau/",
+    "us_ipa": "/ɪn'daʊ/",
+    "pos": "v",
+    "error_count": 1,
+    "mastered": false
+  },
+  "datum": {
+    "meaning": "n 数据（单数）；资料",
+    "uk_ipa": "/ˈdeɪtəm ; ˈdɑːtəm/",
+    "us_ipa": "/ˈdetəm ; ˈdætəm ; (also) ˈdɑtəm/",
+    "pos": "n",
+    "error_count": 1,
+    "mastered": false
+  },
+  "bourgeois": {
+    "meaning": "adj 中产阶级的；n 资产阶级分子",
+    "uk_ipa": "/'bʊəʒwɑː/",
+    "us_ipa": "/,bʊr'ʒwɑ/",
+    "pos": "adj",
+    "error_count": 1,
+    "mastered": false
+  },
+  "woodpecker": {
+    "meaning": "n 啄木鸟",
+    "uk_ipa": "/'wʊdpekə/",
+    "us_ipa": "/'wʊdpɛkɚ/",
+    "pos": "n",
+    "error_count": 1,
+    "mastered": false
+  },
+  "ornamental": {
+    "meaning": "adj 装饰的；n 观赏植物",
+    "uk_ipa": "/ɔːnə'ment(ə)l/",
+    "us_ipa": "/,ɔrnə'mɛntl/",
+    "pos": "adj",
+    "error_count": 1,
+    "mastered": false
+  },
+  "stalk": {
+    "meaning": "n 茎，秆；v 潜行跟踪",
+    "uk_ipa": "/stɔːk/",
+    "us_ipa": "/stɔk/",
+    "pos": "n",
+    "error_count": 1,
+    "mastered": false
+  },
+  "axial": {
+    "meaning": "adj 轴的；轴向的",
+    "uk_ipa": "/'æksɪəl/",
+    "us_ipa": "/'æksɪəl/",
+    "pos": "adj",
+    "error_count": 1,
+    "mastered": false
+  },
+  "axis": {
+    "meaning": "n 轴，轴线",
+    "uk_ipa": "/'æksɪs/",
+    "us_ipa": "/'æksɪs/",
+    "pos": "n",
+    "error_count": 1,
+    "mastered": false
+  },
+  "ambient": {
+    "meaning": "adj 周围的，包围着的",
+    "uk_ipa": "/'æmbɪənt/",
+    "us_ipa": "/'æmbɪənt/",
+    "pos": "adj",
+    "error_count": 1,
+    "mastered": false
+  },
+  "peripheral": {
+    "meaning": "adj 外围的；末梢的",
+    "uk_ipa": "/pə'rɪf(ə)r(ə)l/",
+    "us_ipa": "/pə'rɪfərəl/",
+    "pos": "adj",
+    "error_count": 1,
+    "mastered": false
+  },
+  "anybody": {
+    "meaning": "pron/任何人；同 anyone；n 重要人物；平常人",
+    "uk_ipa": "/ˈenibɒdi/",
+    "us_ipa": "/ˈenibɑːdi/",
+    "pos": "n",
+    "error_count": 1,
+    "mastered": false
+  },
+  "audience": {
+    "meaning": "n 正式会见；拜会",
+    "uk_ipa": "/'ɔːdiəns/",
+    "us_ipa": "/'ɔdɪəns/",
+    "pos": "n",
+    "error_count": 1,
+    "mastered": false
+  },
+  "gust": {
+    "meaning": "n 一阵狂风",
+    "uk_ipa": "/gʌst/",
+    "us_ipa": "/ɡʌst/",
+    "pos": "n",
+    "error_count": 1,
+    "mastered": false
+  },
+  "cherish": {
+    "meaning": "v 珍爱；怀抱（希望）",
+    "uk_ipa": "/'tʃerɪʃ/",
+    "us_ipa": "/'tʃɛrɪʃ/",
+    "pos": "v",
+    "error_count": 1,
+    "mastered": false
+  },
+  "summon": {
+    "meaning": "v 召唤；召集",
+    "uk_ipa": "/'sʌmən/",
+    "us_ipa": "/'sʌmən/",
+    "pos": "v",
+    "error_count": 1,
+    "mastered": false
+  },
+  "marsh": {
+    "meaning": "n 沼泽，湿地",
+    "uk_ipa": "/mɑːʃ/",
+    "us_ipa": "/mɑrʃ/",
+    "pos": "n",
+    "error_count": 1,
+    "mastered": false
+  },
+  "hindrance": {
+    "meaning": "n 妨碍；障碍物",
+    "uk_ipa": "/'hɪndr(ə)ns/",
+    "us_ipa": "/'hɪndrəns/",
+    "pos": "n",
+    "error_count": 1,
+    "mastered": false
+  },
+  "tensile": {
+    "meaning": "adj 拉力的；可拉伸的",
+    "uk_ipa": "/'tensaɪl/",
+    "us_ipa": "/'tɛnsl/",
+    "pos": "adj",
+    "error_count": 1,
+    "mastered": false
+  },
+  "cling": {
+    "meaning": "v  cling to 坚持；依附",
+    "uk_ipa": "/klɪŋ/",
+    "us_ipa": "/klɪŋ/",
+    "pos": "v",
+    "error_count": 1,
+    "mastered": false
+  },
+  "viscous": {
+    "meaning": "adj 粘性的；黏稠的",
+    "uk_ipa": "/'vɪskəs/",
+    "us_ipa": "/'vɪskəs/",
+    "pos": "adj",
+    "error_count": 1,
+    "mastered": false
+  },
+  "cement": {
+    "meaning": "n 水泥；v 巩固",
+    "uk_ipa": "/sɪ'ment/",
+    "us_ipa": "/sə'mɛnt/",
+    "pos": "v",
+    "error_count": 1,
+    "mastered": false
+  },
+  "wink": {
+    "meaning": "v 眨眼；闪烁",
+    "uk_ipa": "/wɪŋk/",
+    "us_ipa": "/wɪŋk/",
+    "pos": "v",
+    "error_count": 1,
+    "mastered": false
+  },
+  "multiplication": {
+    "meaning": "n 乘法；增加",
+    "uk_ipa": "/,mʌltɪplɪ'keɪʃ(ə)n/",
+    "us_ipa": "/'mʌltəplə'keʃən/",
+    "pos": "n",
+    "error_count": 1,
+    "mastered": false
+  },
+  "mint": {
+    "meaning": "n 薄荷；造币厂",
+    "uk_ipa": "/mɪnt/",
+    "us_ipa": "/mɪnt/",
+    "pos": "n",
+    "error_count": 1,
+    "mastered": false
+  },
+  "hollow": {
+    "meaning": "adj 空的；中空的",
+    "uk_ipa": "/'hɒləʊ/",
+    "us_ipa": "/'hɑlo/",
+    "pos": "v",
+    "error_count": 1,
+    "mastered": false
+  },
+  "hymn": {
+    "meaning": "n 赞美诗；圣歌",
+    "uk_ipa": "/hɪm/",
+    "us_ipa": "/hɪm/",
+    "pos": "n",
+    "error_count": 1,
+    "mastered": false
+  },
+  "glorify": {
+    "meaning": "v 赞美；美化",
+    "uk_ipa": "/'glɔːrɪfaɪ/",
+    "us_ipa": "/'ɡlɔrɪfaɪ/",
+    "pos": "v",
+    "error_count": 1,
+    "mastered": false
+  },
+  "roam": {
+    "meaning": "v 漫步；漫游",
+    "uk_ipa": "/rəʊm/",
+    "us_ipa": "/rom/",
+    "pos": "v",
+    "error_count": 1,
+    "mastered": false
+  },
+  "disastrous": {
+    "meaning": "adj 灾难性的；极坏的",
+    "uk_ipa": "/dɪ'zɑːstrəs/",
+    "us_ipa": "/dɪ'zæstrəs/",
+    "pos": "adj",
+    "error_count": 1,
+    "mastered": false
+  },
+  "locomotive": {
+    "meaning": "adj 运动的；机动",
+    "uk_ipa": "/ˌləukə'məutɪv/",
+    "us_ipa": "/,lokə'motɪv/",
+    "pos": "adj",
+    "error_count": 1,
+    "mastered": false
+  },
+  "prototype": {
+    "meaning": "n 原型；雏形",
+    "uk_ipa": "/'prəutətaɪp/",
+    "us_ipa": "/'protə'taɪp/",
+    "pos": "n",
+    "error_count": 1,
+    "mastered": false
+  },
+  "prophet": {
+    "meaning": "n 先知；预言家",
+    "uk_ipa": "/'prɒfɪt/",
+    "us_ipa": "/'prɑfɪt/",
+    "pos": "n",
+    "error_count": 1,
+    "mastered": false
+  },
+  "tulip": {
+    "meaning": "n 郁金香",
+    "uk_ipa": "/'tjuːlɪp/",
+    "us_ipa": "/'tʊlɪp/",
+    "pos": "n",
+    "error_count": 1,
+    "mastered": false
+  },
+  "intonation": {
+    "meaning": "n 语调；声调",
+    "uk_ipa": "/ɪntə'neɪʃ(ə)n/",
+    "us_ipa": "/,ɪntə'neʃən/",
+    "pos": "n",
+    "error_count": 1,
+    "mastered": false
+  },
+  "cosmic": {
+    "meaning": "adj 宇宙的",
+    "uk_ipa": "/'kɒzmɪk/",
+    "us_ipa": "/'kɑzmɪk/",
+    "pos": "adj",
+    "error_count": 1,
+    "mastered": false
+  },
+  "torpedo": {
+    "meaning": "n 鱼雷",
+    "uk_ipa": "/tɔː'piːdəʊ/",
+    "us_ipa": "/tɔr'pido/",
+    "pos": "n",
+    "error_count": 1,
+    "mastered": false
+  },
+  "finite": {
+    "meaning": "adj 有限的；限定的",
+    "uk_ipa": "/'faɪnaɪt/",
+    "us_ipa": "/'faɪnaɪt/",
+    "pos": "adj",
+    "error_count": 1,
+    "mastered": false
+  },
+  "bead": {
+    "meaning": "n 念珠；小珠",
+    "uk_ipa": "/biːd/",
+    "us_ipa": "/bid/",
+    "pos": "n",
+    "error_count": 1,
+    "mastered": false
+  },
+  "tug": {
+    "meaning": "v 拖，拉",
+    "uk_ipa": "/tʌg/",
+    "us_ipa": "/tʌɡ/",
+    "pos": "v/n",
+    "error_count": 1,
+    "mastered": false
+  },
+  "sniff": {
+    "meaning": "v 嗅，闻",
+    "uk_ipa": "/snɪf/",
+    "us_ipa": "/snɪf/",
+    "pos": "v",
+    "error_count": 1,
+    "mastered": false
+  },
+  "courageous": {
+    "meaning": "adj 勇敢的，无畏的",
+    "uk_ipa": "/kə'reɪdʒəs/",
+    "us_ipa": "/kə'redʒəs/",
+    "pos": "adj",
+    "error_count": 1,
+    "mastered": false
+  },
+  "obscure": {
+    "meaning": "adj 无名的；鲜为人知的",
+    "uk_ipa": "/əb'skjuə/",
+    "us_ipa": "/əb'skjʊr/",
+    "pos": "adj",
+    "error_count": 1,
+    "mastered": false
+  },
+  "inasmuch": {
+    "meaning": "adv 由于； insofar as",
+    "uk_ipa": "/ɪnəz'mʌtʃ/",
+    "us_ipa": "/,ɪnəz'mʌtʃ/",
+    "pos": "adv",
+    "error_count": 1,
+    "mastered": false
+  },
+  "restrain": {
+    "meaning": "v 抑制；约束",
+    "uk_ipa": "/rɪ'streɪn/",
+    "us_ipa": "/rɪ'stren/",
+    "pos": "v",
+    "error_count": 1,
+    "mastered": false
+  },
+  "veil": {
+    "meaning": "n 面纱；v 掩盖",
+    "uk_ipa": "/veɪl/",
+    "us_ipa": "/vel/",
+    "pos": "v",
+    "error_count": 1,
+    "mastered": false
+  },
+  "forsake": {
+    "meaning": "v 抛弃；放弃",
+    "uk_ipa": "/fə'seɪk/",
+    "us_ipa": "/fɔrˈsek, fə-/",
+    "pos": "v",
+    "error_count": 1,
+    "mastered": false
+  },
+  "burglar": {
+    "meaning": "n 夜盗，窃贼",
+    "uk_ipa": "/'bɜːglə/",
+    "us_ipa": "/'bɝɡlɚ/",
+    "pos": "n",
+    "error_count": 1,
+    "mastered": false
+  },
+  "amateur": {
+    "meaning": "adj/n 业余的；业余爱好者",
+    "uk_ipa": "/'æmətə; -tʃə; -tjʊə; ,æmə'tɜː/",
+    "us_ipa": "/ˈæmətər/",
+    "pos": "adj/n",
+    "error_count": 1,
+    "mastered": false
+  },
+  "metallurgy": {
+    "meaning": "n 冶金学，冶金术",
+    "uk_ipa": "/mɪ'tælədʒɪ; 'met(ə),lɜːdʒɪ/",
+    "us_ipa": "/'mɛtəlɝdʒi/",
+    "pos": "n",
+    "error_count": 1,
+    "mastered": false
+  },
+  "postulate": {
+    "meaning": "v 假定，假设",
+    "uk_ipa": "/'pɒstjʊleɪt/",
+    "us_ipa": "/'pɑstʃəlet/",
+    "pos": "v",
+    "error_count": 1,
+    "mastered": false
+  },
+  "cradle": {
+    "meaning": "n 摇篮；发源地",
+    "uk_ipa": "/'kreɪdl/",
+    "us_ipa": "/'kredl/",
+    "pos": "n",
+    "error_count": 1,
+    "mastered": false
+  },
+  "wag": {
+    "meaning": "v （狗）摇摆（尾巴）；摇晃（手指）",
+    "uk_ipa": "/wæg/",
+    "us_ipa": "/wæɡ/",
+    "pos": "v",
+    "error_count": 1,
+    "mastered": false
+  },
+  "oxide": {
+    "meaning": "n 氧化物",
+    "uk_ipa": "/'ɒksaɪd/",
+    "us_ipa": "/'ɑksaɪd/",
+    "pos": "n",
+    "error_count": 1,
+    "mastered": false
+  },
+  "balcony": {
+    "meaning": "n 阳台；楼厅，楼座",
+    "uk_ipa": "/'bælkənɪ/",
+    "us_ipa": "/'bælkəni/",
+    "pos": "n",
+    "error_count": 1,
+    "mastered": false
+  },
+  "anode": {
+    "meaning": "n 阳极，正极，板极",
+    "uk_ipa": "/'ænəʊd/",
+    "us_ipa": "/'ænod/",
+    "pos": "n",
+    "error_count": 1,
+    "mastered": false
+  },
+  "proverb": {
+    "meaning": "n 谚语，格言，箴言",
+    "uk_ipa": "/'prɒvɜːb/",
+    "us_ipa": "/'prɑvɝb/",
+    "pos": "n",
+    "error_count": 1,
+    "mastered": false
+  },
+  "cloak": {
+    "meaning": "v 掩盖，掩饰；覆盖，笼罩",
+    "uk_ipa": "/kləʊk/",
+    "us_ipa": "/klok/",
+    "pos": "v",
+    "error_count": 1,
+    "mastered": false
+  },
+  "retard": {
+    "meaning": "v 阻碍；减缓；放慢",
+    "uk_ipa": "/'rɪtɑːd/",
+    "us_ipa": "/'rɪtɑrd/",
+    "pos": "v",
+    "error_count": 1,
+    "mastered": false
+  },
+  "pickle": {
+    "meaning": "n 腌制食品，泡菜",
+    "uk_ipa": "/'pɪk(ə)l/",
+    "us_ipa": "/'pɪkl/",
+    "pos": "n",
+    "error_count": 1,
+    "mastered": false
+  },
+  "opium": {
+    "meaning": "n 鸦片；麻醉剂",
+    "uk_ipa": "/'əʊpɪəm/",
+    "us_ipa": "/'opɪəm/",
+    "pos": "n",
+    "error_count": 1,
+    "mastered": false
+  },
+  "velocity": {
+    "meaning": "n 迅速，快速",
+    "uk_ipa": "/və'lɒsəti/",
+    "us_ipa": "/vəˈlɑsəti/",
+    "pos": "n",
+    "error_count": 1,
+    "mastered": false
+  },
+  "radiant": {
+    "meaning": "adj 容光焕发的；光芒四射的",
+    "uk_ipa": "/'reɪdiənt/",
+    "us_ipa": "/'redɪənt/",
+    "pos": "adj",
+    "error_count": 1,
+    "mastered": false
+  },
+  "gorgeous": {
+    "meaning": "adj 华丽的；极好的",
+    "uk_ipa": "/'gɔːdʒəs/",
+    "us_ipa": "/'ɡɔrdʒəs/",
+    "pos": "adj",
+    "error_count": 1,
+    "mastered": false
+  },
+  "requisite": {
+    "meaning": "adj 必要的，必需的；n 必需品",
+    "uk_ipa": "/'rekwɪzɪt/",
+    "us_ipa": "/'rɛkwəzɪt/",
+    "pos": "adj/n",
+    "error_count": 1,
+    "mastered": false
+  },
+  "embroidery": {
+    "meaning": "n 刺绣；绣品",
+    "uk_ipa": "/ɪm'brɒɪd(ə)rɪ; em-/",
+    "us_ipa": "/ɪm'brɔɪdəri/",
+    "pos": "n",
+    "error_count": 1,
+    "mastered": false
+  },
+  "nun": {
+    "meaning": "n 修女；尼姑",
+    "uk_ipa": "/nʌn/",
+    "us_ipa": "/nʌn/",
+    "pos": "n",
+    "error_count": 1,
+    "mastered": false
+  },
+  "flush": {
+    "meaning": "v 冲洗；脸红；n 脸红",
+    "uk_ipa": "/flʌʃ/",
+    "us_ipa": "/flʌʃ/",
+    "pos": "n",
+    "error_count": 1,
+    "mastered": false
+  },
+  "constituent": {
+    "meaning": "n 成分；选民；adj 组成的",
+    "uk_ipa": "/kən'stɪtjuənt/",
+    "us_ipa": "/kən'stɪtʃuənt/",
+    "pos": "adj/n",
+    "error_count": 1,
+    "mastered": false
+  },
+  "scarlet": {
+    "meaning": "adj 猩红的，鲜红的",
+    "uk_ipa": "/'skɑːlət/",
+    "us_ipa": "/'skɑrlɪt/",
+    "pos": "n/adj",
+    "error_count": 1,
+    "mastered": false
+  },
+  "bridegroom": {
+    "meaning": "n 新郎",
+    "uk_ipa": "/'braɪdgruːm/",
+    "us_ipa": "/'braɪdɡrum/",
+    "pos": "n",
+    "error_count": 1,
+    "mastered": false
+  },
+  "subscript": {
+    "meaning": "n 下标，角注",
+    "uk_ipa": "/'sʌbskrɪpt/",
+    "us_ipa": "/'sʌbskrɪpt/",
+    "pos": "adj/n",
+    "error_count": 1,
+    "mastered": false
+  },
+  "gradient": {
+    "meaning": "n 梯度；斜坡",
+    "uk_ipa": "/'greɪdɪənt/",
+    "us_ipa": "/'ɡredɪənt/",
+    "pos": "n",
+    "error_count": 1,
+    "mastered": false
+  },
+  "vicious": {
+    "meaning": "adj 恶毒的；剧烈的",
+    "uk_ipa": "/'vɪʃəs/",
+    "us_ipa": "/'vɪʃəs/",
+    "pos": "adj",
+    "error_count": 1,
+    "mastered": false
+  },
+  "coefficient": {
+    "meaning": "n 系数",
+    "uk_ipa": "/,kəʊɪ'fɪʃ(ə)nt/",
+    "us_ipa": "/,koɪ'fɪʃnt/",
+    "pos": "n",
+    "error_count": 1,
+    "mastered": false
+  },
+  "wedge": {
+    "meaning": "n 楔；v 楔入",
+    "uk_ipa": "/wedʒ/",
+    "us_ipa": "/wɛdʒ/",
+    "pos": "n/v",
+    "error_count": 1,
+    "mastered": false
+  },
+  "decimal": {
+    "meaning": "adj 十进制的；n 小数",
+    "uk_ipa": "/'desɪml/",
+    "us_ipa": "/'dɛsɪml/",
+    "pos": "adj",
+    "error_count": 1,
+    "mastered": false
+  },
+  "pamphlet": {
+    "meaning": "n 小册子",
+    "uk_ipa": "/'pæmflət/",
+    "us_ipa": "/ˈpæmflɪt/",
+    "pos": "n",
+    "error_count": 1,
+    "mastered": false
+  },
+  "recreation": {
+    "meaning": "n 娱乐，消遣；重建",
+    "uk_ipa": "/ˌrekri'eɪʃn/",
+    "us_ipa": "/,rɛkrɪ'eʃən/",
+    "pos": "n",
+    "error_count": 1,
+    "mastered": false
+  },
+  "orientation": {
+    "meaning": "n 方向；定位；适应",
+    "uk_ipa": "/ˌɔːriən'teɪʃn/",
+    "us_ipa": "/orɪɛn'teʃən/",
+    "pos": "n",
+    "error_count": 1,
+    "mastered": false
+  },
+  "hail": {
+    "meaning": "v 欢呼；n 雹",
+    "uk_ipa": "/heɪl/",
+    "us_ipa": "/hel/",
+    "pos": "v",
+    "error_count": 1,
+    "mastered": false
+  },
+  "pilgrim": {
+    "meaning": "n 朝圣者；香客",
+    "uk_ipa": "/'pɪlgrɪm/",
+    "us_ipa": "/'pɪlɡrɪm/",
+    "pos": "n",
+    "error_count": 1,
+    "mastered": false
+  },
+  "analogy": {
+    "meaning": "n 类比；类似",
+    "uk_ipa": "/ə'nælədʒi/",
+    "us_ipa": "/ə'nælədʒi/",
+    "pos": "n",
+    "error_count": 1,
+    "mastered": false
+  },
+  "reciprocal": {
+    "meaning": "adj 相互的；互惠的",
+    "uk_ipa": "/rɪ'sɪprəkl/",
+    "us_ipa": "/rɪ'sɪprəkl/",
+    "pos": "adj",
+    "error_count": 1,
+    "mastered": false
+  },
+  "linear": {
+    "meaning": "adj 线的；线性的",
+    "uk_ipa": "/'lɪniə/",
+    "us_ipa": "/'lɪnɪɚ/",
+    "pos": "adj",
+    "error_count": 1,
+    "mastered": false
+  },
+  "ramble": {
+    "meaning": "v 漫步；闲聊",
+    "uk_ipa": "/'ræmb(ə)l/",
+    "us_ipa": "/'ræmbl/",
+    "pos": "v",
+    "error_count": 1,
+    "mastered": false
+  },
+  "taper": {
+    "meaning": "n 锥形；v 逐渐变细",
+    "uk_ipa": "/'teɪpə/",
+    "us_ipa": "/'tepɚ/",
+    "pos": "n",
+    "error_count": 1,
+    "mastered": false
+  },
+  "petty": {
+    "meaning": "adj 小的；琐碎的；小气的",
+    "uk_ipa": "/'peti/",
+    "us_ipa": "/'pɛti/",
+    "pos": "adj",
+    "error_count": 1,
+    "mastered": false
+  },
+  "filament": {
+    "meaning": "n 细丝；灯丝",
+    "uk_ipa": "/'fɪləm(ə)nt/",
+    "us_ipa": "/'fɪləmənt/",
+    "pos": "n",
+    "error_count": 1,
+    "mastered": false
+  },
+  "spectrum": {
+    "meaning": "n 光谱；范围",
+    "uk_ipa": "/'spektrəm/",
+    "us_ipa": "/'spɛktrəm/",
+    "pos": "n",
+    "error_count": 1,
+    "mastered": false
+  },
+  "quench": {
+    "meaning": "v 熄灭；解（渴）",
+    "uk_ipa": "/kwentʃ/",
+    "us_ipa": "/kwɛntʃ/",
+    "pos": "v",
+    "error_count": 1,
+    "mastered": false
+  },
+  "intake": {
+    "meaning": "n 吸入；摄入量",
+    "uk_ipa": "/'ɪnteɪk/",
+    "us_ipa": "/'ɪn'tek/",
+    "pos": "n",
+    "error_count": 1,
+    "mastered": false
+  },
+  "inorganic": {
+    "meaning": "adj 无机的；无生物的",
+    "uk_ipa": "/ɪnɔː'gænɪk/",
+    "us_ipa": "/'ɪnɔr'gænɪk/",
+    "pos": "adj",
+    "error_count": 1,
+    "mastered": false
+  },
+  "nought": {
+    "meaning": "n 零；无价值",
+    "uk_ipa": "/nɔːt/",
+    "us_ipa": "/nɔt/",
+    "pos": "n",
+    "error_count": 1,
+    "mastered": false
+  },
+  "filth": {
+    "meaning": "n 污秽；猥亵",
+    "uk_ipa": "/fɪlθ/",
+    "us_ipa": "/fɪlθ/",
+    "pos": "n",
+    "error_count": 1,
+    "mastered": false
+  },
+  "hum": {
+    "meaning": "v 哼曲；n 嗡嗡声",
+    "uk_ipa": "/hʌm/",
+    "us_ipa": "/hʌm/",
+    "pos": "n/v",
+    "error_count": 1,
+    "mastered": false
+  },
+  "compliment": {
+    "meaning": "n 称赞；v 称赞",
+    "uk_ipa": "/'kɒmplɪmənt/",
+    "us_ipa": "/ˈkɑːmplɪmənt/",
+    "pos": "n/v",
+    "error_count": 1,
+    "mastered": false
+  },
+  "illiterate": {
+    "meaning": "adj 文盲的；n 文盲",
+    "uk_ipa": "/ɪ'lɪt(ə)rət/",
+    "us_ipa": "/ɪ'lɪtərət/",
+    "pos": "adj/n",
+    "error_count": 1,
+    "mastered": false
+  },
+  "plague": {
+    "meaning": "n 瘟疫；v 折磨",
+    "uk_ipa": "/pleɪg/",
+    "us_ipa": "/pleɡ/",
+    "pos": "n",
+    "error_count": 1,
+    "mastered": false
+  },
+  "graze": {
+    "meaning": "v 吃草；擦伤",
+    "uk_ipa": "/greɪz/",
+    "us_ipa": "/ɡrez/",
+    "pos": "v",
+    "error_count": 1,
+    "mastered": false
+  },
+  "stern": {
+    "meaning": "adj 严厉的；n 船尾",
+    "uk_ipa": "/stɜːn/",
+    "us_ipa": "/stɝn/",
+    "pos": "n",
+    "error_count": 1,
+    "mastered": false
+  },
+  "mast": {
+    "meaning": "n 桅杆；杆",
+    "uk_ipa": "/mɑːst/",
+    "us_ipa": "/mæst/",
+    "pos": "n",
+    "error_count": 1,
+    "mastered": false
+  },
+  "trifle": {
+    "meaning": "n 小事；v 轻视",
+    "uk_ipa": "/'traɪfl/",
+    "us_ipa": "/'traɪfl/",
+    "pos": "v",
+    "error_count": 1,
+    "mastered": false
+  },
+  "propulsion": {
+    "meaning": "n 推进；推动力",
+    "uk_ipa": "/prə'pʌlʃ(ə)n/",
+    "us_ipa": "/prə'pʌlʃən/",
+    "pos": "n",
+    "error_count": 1,
+    "mastered": false
+  },
+  "propel": {
+    "meaning": "v 推进；驱使",
+    "uk_ipa": "/prə'pel/",
+    "us_ipa": "/prə'pɛl/",
+    "pos": "v",
+    "error_count": 1,
+    "mastered": false
+  },
+  "torment": {
+    "meaning": "n 痛苦；v 折磨",
+    "uk_ipa": "/'tɔːment/",
+    "us_ipa": "/'tɔrmɛnt/",
+    "pos": "n/v",
+    "error_count": 1,
+    "mastered": false
+  },
+  "thrash": {
+    "meaning": "v 鞭打；翻来覆去",
+    "uk_ipa": "/θræʃ/",
+    "us_ipa": "/θræʃ/",
+    "pos": "v",
+    "error_count": 1,
+    "mastered": false
+  },
+  "ferrous": {
+    "meaning": "adj 铁的；含铁的",
+    "uk_ipa": "/'ferəs/",
+    "us_ipa": "/'fɛrəs/",
+    "pos": "adj",
+    "error_count": 1,
+    "mastered": false
+  },
+  "modulate": {
+    "meaning": "v 调节；调制",
+    "uk_ipa": "/'mɒdjʊleɪt/",
+    "us_ipa": "/'mɑdʒəlet/",
+    "pos": "v",
+    "error_count": 1,
+    "mastered": false
+  }
+}

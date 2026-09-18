@@ -4,18 +4,26 @@
 apply_vocab_rules.py — 中英互译发布包「核心词汇」机械规则校验/修正工具
 （translation-vocab-phrase-method skill 配套脚本）
 
+规则源（references/）：
+  - add_words.json            学术/学科类 + >15 字母词（强制纳入主表）
+  - exclude_basic.txt         核心词汇必剔基础功能词
+  - transliteration_exclude.txt  中文音译专名（红线排除）
+  - wrong_words.json          本人 CET-6 错词表（强制通道，命中即单独成表）
+
 功能（默认报告模式，不改文件）：
-  1. 解析发布包 .md 的「核心词汇」表（3列：英文|音标|中文释义）。
+  1. 解析发布包 .md 的「核心词汇」主表（3列：英文|音标|中文释义）。
   2. 标出命中 exclude_basic.txt 的基础功能词行（建议移除）。
   3. 标出命中 transliteration_exclude.txt 的中文音译专名行（提示人工移除）。
   4. 校验标题计数 （N） == 表内实际行数。
-  5. 从 原文/参考译文 抽取「学术词(add_words.json) + >15字母词」候选，列出缺失项供补词。
+  5. 从 原文/参考译文 抽取「学术词 + >15字母词」候选，列出缺失项供补词。
+  6. 标出命中 错词表 的原文单词（强制通道候选，建议单独成表）。
 
---apply 模式：自动重写 .md 的 核心词汇 表（移除基础词、重排、重算计数），
-             并自动备份为 .bak。HTML 需另行人工处理（脚本只动 .md）。
+--apply         移除核心词汇主表中 exclude_basic.txt 命中的基础词，重排并重算计数。
+--apply-error   在核心词汇板块内追加「个人错词」子表（SKILL.md §1.2.1），命中词从主表剔除，
+                重算主表计数；自动备份 .bak。HTML 需另行人工处理。
 
 用法：
-  python apply_vocab_rules.py <file_or_dir> [--apply]
+  python apply_vocab_rules.py <file_or_dir> [--apply] [--apply-error]
 """
 import os, re, json, argparse
 
@@ -24,6 +32,7 @@ REF = os.path.join(os.path.dirname(HERE), "references")
 ADD_PATH = os.path.join(REF, "add_words.json")
 EXC_PATH = os.path.join(REF, "exclude_basic.txt")
 TRANS_PATH = os.path.join(REF, "transliteration_exclude.txt")
+WRONG_PATH = os.path.join(REF, "wrong_words.json")
 
 # ---------- 加载参考 ----------
 def load_json(p, default):
@@ -50,7 +59,9 @@ ADD = load_json(ADD_PATH, {})
 ADD.pop("_meta", None)
 EXCLUDE = set(load_list(EXC_PATH))
 TRANS = set(load_list(TRANS_PATH))
+WRONG = load_json(WRONG_PATH, {})
 ADD_WORDS = set(w.lower() for w in ADD.keys())
+WRONG_WORDS = set(w.lower() for w in WRONG.keys())
 
 # ---------- 解析 ----------
 def find_section(text, marker):
@@ -129,8 +140,81 @@ def candidate_missing(source_en, present_words):
             missing.append(w)
     return sorted(set(missing))
 
+# ---------- 错词表匹配（后缀回退，保守） ----------
+def match_error_word(token):
+    """返回 token 命中的错词表规范词；未命中返回 None。"""
+    if not WRONG_WORDS:
+        return None
+    t = token.lower().strip("'-")
+    if not t:
+        return None
+    if t in WRONG:
+        return t
+    if t.endswith("'s"):
+        b = t[:-2]
+        if b in WRONG:
+            return b
+    if t.endswith("ies") and len(t) > 4:
+        if t[:-3] + "y" in WRONG:
+            return t[:-3] + "y"
+    if t.endswith("ied") and len(t) > 4:
+        if t[:-3] + "y" in WRONG:
+            return t[:-3] + "y"
+    if t.endswith("es"):
+        if t[-3] in "sxzh" or t[-4:-2] in ("ch", "sh"):
+            if t[:-2] in WRONG:
+                return t[:-2]
+    if t.endswith("ed") and len(t) > 3:
+        if t[:-2] in WRONG:
+            return t[:-2]
+        if len(t[:-2]) >= 2 and t[-3] == t[-4] and t[-3] in "bcdfghjklmnpqrstvwyz":
+            if t[:-3] in WRONG:
+                return t[:-3]
+    if t.endswith("ing") and len(t) > 4:
+        if t[:-3] in WRONG:
+            return t[:-3]
+        if len(t[:-3]) >= 2 and t[-4] == t[-5] and t[-4] in "bcdfghjklmnpqrstvwyz":
+            if t[:-4] in WRONG:
+                return t[:-4]
+    if t.endswith("s") and len(t) > 2:
+        if t[:-1] in WRONG:
+            return t[:-1]
+    return None
+
+def find_error_word_hits(text, present_words):
+    """返回 {规范词: (原文形式, info)}，仅含命中错词表且不在主表 present_words 的词。"""
+    hits = {}
+    if not WRONG_WORDS:
+        return hits
+    src = extract_source_en(text)
+    for tok in re.findall(r"[A-Za-z][A-Za-z'\-]*", src or ""):
+        canonical = match_error_word(tok)
+        if not canonical or canonical in present_words or canonical in hits:
+            continue
+        hits[canonical] = (tok, WRONG.get(canonical, {}))
+    return hits
+
+def extract_subtable_words(text):
+    """返回已存在「个人错词」子表中的词集合（避免重复插入）。"""
+    out = set()
+    in_sub = False
+    for ln in text.splitlines():
+        if "个人错词" in ln and ln.lstrip().startswith("#"):
+            in_sub = True
+            continue
+        if in_sub and ln.lstrip().startswith("#"):
+            in_sub = False
+            continue
+        if in_sub:
+            m = re.match(r'\|\s*([^|]+?)\s*\|', ln)
+            if m:
+                w = m.group(1).strip().lower()
+                if w not in ("英文", "word"):
+                    out.add(w)
+    return out
+
 # ---------- 主流程 ----------
-def process_file(path, apply=False):
+def process_file(path, apply=False, apply_error=False):
     text = open(path, encoding="utf-8").read()
     region = get_corevocab_region(text)
     report = {"file": os.path.basename(path)}
@@ -154,6 +238,7 @@ def process_file(path, apply=False):
     flagged = [w for w, _ in rows if w.lower() in TRANS]
     src = extract_source_en(text)
     missing = candidate_missing(src, present_words)
+    err_hits = find_error_word_hits(text, present_words)
 
     report["title_count"] = title_n
     report["table_rows"] = cur_n
@@ -161,17 +246,41 @@ def process_file(path, apply=False):
     report["removed_basic"] = removed
     report["flagged_transliteration"] = flagged
     report["suggest_add"] = [f"{w} ({ADD.get(w,{}).get('ipa','?')} {ADD.get(w,{}).get('zh','')})" for w in missing]
+    report["error_word_hits"] = sorted(err_hits.keys())
 
-    if apply:
-        new_rows = [ln for w, ln in rows if w.lower() not in EXCLUDE]
-        new_n = len(new_rows)
-        # 重算标题计数（只改第一处）
+    # ---- 改写 ----
+    do_write = False
+    if apply or apply_error:
+        # 1) 基础词剔除
+        keep = [(w, ln) for w, ln in rows if w.lower() not in EXCLUDE]
+        # 2) 错词子表
+        sub_block = None
+        if apply_error:
+            # 错词命中以「原文是否出现」为准，全部纳入子表；已在主表的移出主表避免重复（§1.2.1）
+            hits = find_error_word_hits(text, set())
+            sub_present = extract_subtable_words(text)
+            hits = {c: v for c, v in hits.items() if c not in sub_present}
+            if hits:
+                n = len(hits)
+                rows_sub = []
+                for c, (of, info) in hits.items():
+                    ipa = info.get("uk_ipa") or info.get("us_ipa") or ""
+                    pos = info.get("pos", "")
+                    meaning = info.get("meaning", "")
+                    ec = info.get("error_count", 0)
+                    rows_sub.append(f"| {c} | {ipa} | {pos} | {meaning} | {of} | {ec} |")
+                sub_block = ["",
+                             "### 个人错词（CET-6 错词表命中 · 强制纳入，%d 个）" % n,
+                             "| 英文 | 音标 | 词性 | 中文释义 | 原文形式 | 个人错次 |",
+                             "|----|----|----|----|----|----|"] + rows_sub
+                keep = [(w, ln) for w, ln in keep if w.lower() not in hits]
+        new_n = len(keep)
+        # 重算标题计数（第一处 （N））
         for i, ln in enumerate(lines):
             if re.search(r'（\s*\d+\s*）', ln):
                 lines[i] = re.sub(r'（\s*\d+\s*）', f'（{new_n}）', ln, count=1)
                 break
-        # 仅重建核心词汇表区域 [s, e]，其余行原样保留（避免误伤「重点词组」等后续表格）
-        header_row = table_lines[0]                       # | 英文 | 音标 | 中文释义 |
+        header_row = table_lines[0]
         sep_row = None
         for tl in table_lines[1:]:
             if re.match(r'^\s*\|[\s\-:|]+\|\s*$', tl):
@@ -180,20 +289,28 @@ def process_file(path, apply=False):
         new_table = [header_row]
         if sep_row:
             new_table.append(sep_row)
-        new_table += new_rows
-        final = "\n".join(lines[:s] + new_table + lines[e+1:])
-        bak = path + ".bak"
-        open(bak, "w", encoding="utf-8").write(text)
-        open(path, "w", encoding="utf-8").write(final)
-        report["applied"] = True
-        report["backup"] = os.path.basename(bak)
-        report["new_count"] = new_n
+        new_table += [ln for _, ln in keep]
+        if sub_block:
+            final = "\n".join(lines[:s] + new_table + sub_block + lines[e+1:])
+        else:
+            final = "\n".join(lines[:s] + new_table + lines[e+1:])
+        do_write = apply or (apply_error and sub_block is not None)
+        if do_write:
+            bak = path + ".bak"
+            open(bak, "w", encoding="utf-8").write(text)
+            open(path, "w", encoding="utf-8").write(final)
+            report["applied"] = True
+            report["backup"] = os.path.basename(bak)
+            report["new_count"] = new_n
+            if sub_block:
+                report["error_subtable_added"] = len(hits)
     return report
 
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("target", help="发布包 .md 文件或目录")
-    ap.add_argument("--apply", action="store_true", help="真正重写 .md（自动 .bak）")
+    ap.add_argument("--apply", action="store_true", help="真正重写 .md：移除基础词（自动 .bak）")
+    ap.add_argument("--apply-error", action="store_true", help="追加「个人错词」子表（§1.2.1，自动 .bak）")
     args = ap.parse_args()
 
     if os.path.isdir(args.target):
@@ -204,7 +321,7 @@ def main():
 
     for fp in files:
         try:
-            r = process_file(fp, args.apply)
+            r = process_file(fp, args.apply, args.apply_error)
         except Exception as ex:
             r = {"file": os.path.basename(fp), "error": str(ex)}
         print("=" * 60)
