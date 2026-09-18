@@ -154,4 +154,4 @@ python scripts/apply_vocab_rules.py "D:\WorkBuddy\每日英语\发布包" --appl
 - [ ] 音标自动查词 API 接入（替代手工查 Cambridge），并去点归一化。
 - [ ] `apply_vocab_rules.py` 增加 HTML 同步改写（目前只动 .md）。
 - [ ] add_words.json 持续扩词（每次遇到新学术/学科词即补，并附 IPA 来源）。
-- [ ] 已知遗留：已发布包 09-24/09-26/10-05 中 `technologies` 的音标写作 `/tekˈnɒlədʒi/`（单数 technology 的），正确应为 `/tekˈnɒlədʒiz/`；下次触碰这些包时一并修正（参考 `references/add_words.json` 已存正确值）。
+- [x] 已知遗留：已发布包 09-24/09-26/10-05 中 `technologies` 的音标误写作单数 `/tekˈnɒlədʒi/`，已于 2026-09-18 修正为正确复数 `/tekˈnɒlədʒiz/`（md+html 共 6 个文件，备份目录旧版未动）。规划包内 `add_words.json` 始终存正确值。
