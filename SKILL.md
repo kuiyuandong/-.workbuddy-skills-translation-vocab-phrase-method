@@ -163,7 +163,7 @@ agent_created: true
 - 校验标题计数 `（N）` == 表内行数；
 - 从原文/参考译文抽取「学术词 + >15 字母词」候选，列出缺失项供补词；
 - 从 `references/wrong_words.json` 加载本人 CET-6 错词表，报告模式标出 `error_word_hits`（原文命中但不在主表的词）；`--apply-error` 在核心词汇板块内追加「个人错词」子表（§1.2.1），命中词从主表剔除并重算计数；
-- 默认**只报告**；`--apply` / `--apply-error` 才重写 .md 表（自动备份 .bak），HTML 另行人工处理。
+- 默认**只报告**；`--apply` / `--apply-error` 才重写 .md 表（自动备份 .bak）。**HTML 镜像由 `apply_vocab_rules_html.py` 同步处理**（见下），保证 md↔html 双表一致。
 
 ```bash
 # 报告模式（安全，不改文件）
@@ -174,6 +174,16 @@ python scripts/apply_vocab_rules.py "D:\WorkBuddy\每日英语\发布包"
 python scripts/apply_vocab_rules.py "D:\WorkBuddy\每日英语\发布包" --apply
 # 追加「个人错词」子表（错词表命中强制纳入）
 python scripts/apply_vocab_rules.py "D:\WorkBuddy\每日英语\发布包" --apply-error
+```
+
+`scripts/apply_vocab_rules_html.py` —— 对发布包 `.html` 应用与 `--apply-error` 对齐的「个人错词」子表镜像规则（复用 `apply_vocab_rules.py` 的 `wrong_words.json` 与命中检测）：
+- 命中词若已在 html 主表 → 移出主表并递减 `🔤 核心词汇（N）` 计数（与 md 对齐）；
+- 在「核心词汇」`</section>` 之后、「朗读建议」之前插入「个人错词」子表（6 列：英文|音标|词性|中文释义|原文形式|个人错次）；
+- 自动备份 `.bak`；无命中/已存在子表则为 no-op（幂等）。
+
+```bash
+# 对全部 60 份翻译每日一练 同步 html 个人错词子表
+python scripts/apply_vocab_rules_html.py "D:\WorkBuddy\每日英语\发布包"
 ```
 
 `scripts/sync_wrong_words.py` —— 将本人 CET-6 错词表从自动化数据源同步进 `references/wrong_words.json`（幂等，可复跑）：
@@ -188,6 +198,7 @@ python scripts/sync_wrong_words.py --source <其他数据源根目录>
 - `references/transliteration_exclude.txt`：中文音译专名排除清单/规则。
 - `references/wrong_words.json`：本人 CET-6 错词表同步副本（392 词，含 音标/词性/释义/错次），由 `scripts/sync_wrong_words.py` 从 `2026-06-30-22-34-53` 数据源同步。
 - `scripts/sync_wrong_words.py`：错词表同步脚本（幂等，`--source` 可指定其它数据源）。
+- `scripts/apply_vocab_rules_html.py`：发布包 `.html` 的「个人错词」子表镜像脚本，与 `.md --apply-error` 对齐，保证 md↔html 双表一致。
 
 # 七、TODO（待完善，逐步迭代）
 - [x] 自动识别「长专名/机构名录类」抽取：已实现 `vocab_phrase_rules.extract_phrase_candidates()`（2026-09-18），全窗口命中 322 条候选，人工核定后入表。
@@ -195,6 +206,6 @@ python scripts/sync_wrong_words.py --source <其他数据源根目录>
 - [ ] 按语境重写释义：词典义泛（capital「首都；省会；都城」）但语境义具体（"湿地之都"）的词，需按语境改写释义才能过 G3——这类词在 60 篇里有若干，待批量处理。
 - [ ] 核心词汇跌破 6 个的篇目补词：停表扩张后 29/60 篇不足 6 个（带「待人工补录」标记），需逐篇按语境补有价值词。
 - [ ] 音标自动查词 API 接入（替代手工查 Cambridge），并去点归一化。
-- [ ] `apply_vocab_rules.py` 增加 HTML 同步改写（目前只动 .md）。
+- [x] `apply_vocab_rules.py` 增加 HTML 同步改写：已实现 `scripts/apply_vocab_rules_html.py`，对 `.html` 镜像「个人错词」子表并与 md 对齐（2026-09-18 已跑全量 60 份）。
 - [ ] add_words.json 持续扩词（每次遇到新学术/学科词即补，并附 IPA 来源）。
 - [x] 已知遗留：已发布包 09-24/09-26/10-05 中 `technologies` 的音标误写作单数 `/tekˈnɒlədʒi/`，已于 2026-09-18 修正为正确复数 `/tekˈnɒlədʒiz/`（md+html 共 6 个文件，备份目录旧版未动）。规划包内 `add_words.json` 始终存正确值。

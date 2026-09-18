@@ -20,7 +20,7 @@ apply_vocab_rules.py — 中英互译发布包「核心词汇」机械规则校�
 
 --apply         移除核心词汇主表中 exclude_basic.txt 命中的基础词，重排并重算计数。
 --apply-error   在核心词汇板块内追加「个人错词」子表（SKILL.md §1.2.1），命中词从主表剔除，
-                重算主表计数；自动备份 .bak。HTML 需另行人工处理。
+                重算主表计数；自动备份 .bak。HTML 镜像请用配套脚本 apply_vocab_rules_html.py。
 
 用法：
   python apply_vocab_rules.py <file_or_dir> [--apply] [--apply-error]
