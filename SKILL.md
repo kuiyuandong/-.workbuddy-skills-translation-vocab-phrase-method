@@ -6,6 +6,7 @@ read_when:
   - 制作翻译每日一练 / 口译备考 / 双语阅读类公众号或练习包
   - 修订已有发布包的核心词汇表与重点词组（删简单词、补学术词、排音译专名）
   - 需要判断「哪些词进核心词汇、哪些短语进重点词组」
+  - 需要接入「个人 CET-6 错词表」做强制纳入（错词表命中即入核心词汇并单独成表）
 agent_created: true
 ---
 
@@ -34,6 +35,7 @@ agent_created: true
 口译对照型素材**不加例句列**（源无例句，勿编造）。若某场景需要例句，那是另一个模板，不在本规则内。
 
 ## 1.2 四关准入（AND 关系，全过才保留 · 2026-09-18 定稿）
+> **有唯一例外**：本人 CET-6 错词表命中词走**强制通道**（见 1.2.1），不受四关限制。
 | 关 | 名称 | 判定 |
 |----|------|------|
 | **G1** | 非基础词 | 不在基础词停表内（见 1.3） |
@@ -44,12 +46,35 @@ agent_created: true
 **必须加入（满足任一即视为有口译价值，叠加执行）**
 1. **学术 / 学科类词**：archaeological / civilization / society / eco-friendly / cultural / economic / historical / environment / ecological / petrochemical / geopark / agricultural / ecosystem / business-friendly / logistics / metropolis / fourth-generation / technological / technologies / artistic / physical / biological / environmental / popularization / social / botanical / horticultural / horticulture 等（权威清单见 `references/add_words.json`，可扩充）。
 2. **超过 15 字母的词**（含连字符复合词，长度数连字符，如 business-friendly / fourth-generation）。
+3. **本人错词表命中词（强制通道，见 1.2.1）** —— 优先级最高，直接覆盖 G1–G4。
 
-**数量规则**：目标 8–10 个 → 不足 8 按实际输出 → **不足 6 自动加「待人工补录」标记，绝不编造补位**。
+**数量规则**：目标 8–10 个 → 不足 8 按实际输出 → **不足 6 自动加「待人工补录」标记，绝不编造补位**（「不足 6」按 **主表 + 个人错词合计** 计算）。
 
 **运行时唯一事实源**：`…\每日一练素材\vocab_phrase_rules.py`（本 skill 与它保持一致；改规则改代码那处）。
 
 > **前提**：仅在「该词确实出现在本篇英文原文」时加入，**不编造**。缺失词查 Cambridge UK 音标（去点，与表内风格统一），中文取权威译法。
+
+## 1.2.1 个人错词强制通道（2026-09-18 金玉拍板，优先于四关）
+
+**规则**：本人 CET-6 错词表（392 词）中**任一单词出现在本篇英文文本里，一律纳入核心词汇并单独成表**，
+不受 G1（基础词）/ G2（口译价值）/ G3（释义泛化）/ G4（去冗）四关限制。
+理由：这些词是**已被验证的真实记忆薄弱点**，价值高于任何通用难度分级。
+
+**呈现**：写在「核心词汇」板块内、主表之后，单独成表：
+
+```
+### 个人错词（CET-6 错词表命中 · 强制纳入，N 个）
+| 英文 | 音标 | 词性 | 中文释义 | 原文形式 | 个人错次 |
+```
+
+- 释义与音标**直接取自错词表原文**（本人已自测积累），**不由模型生成**；
+- 同时从主表剔除，避免同词出现两次；
+- 词形匹配只做保守后缀回退：`-s / -es / -ed / -ing / -ies / -ied`、双写辅音还原、`'s`；
+  `-es` 仅在词尾为 `s/x/z/ch/sh` 时回退两字母（否则 wages→wag 会假阳性）。
+- 「原文形式」列记录实际出现形（hailed / species / cherishing），便于在原文里定位。
+
+**工具**：`wrong_words.json`（结构化通道）+ `build_wrong_words.py`（幂等重建）+ `find_wrong_word_hits()` /
+`split_core_vocab()`（`vocab_phrase_rules.py`）+ `wrong_words_report.py`（命中清单与自检）。
 
 ## 1.3 必须剔除（基础词停表，四关中的 G1）
 判断标准：**人人都认识、不体现原文专业信息**。典型如 river / city / area / province / spring / beach / national / famous / history。
